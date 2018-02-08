@@ -19,29 +19,62 @@ html, body {
 }
 
 .header {
-	padding: 0% 10%;	
 	background-image: url("../img/header_slide.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
 
-.logo, .navigation, .player, .caption {
+.header__inner-container {
+	padding: 1% 10%;
+}
+
+.header__top-container {
+	margin-top: 0.5%;
+	display: flex;
+	align-items: center;
+}
+
+.header__bottom-container{
+	margin-top: 3%;
+	display: flex;
+	align-items: center;
+}
+
+.header__logo, 
+.header__navigation, 
+.header__player, 
+.header__caption {
 	display: inline-block;
 }
 
-.logo_img, .logo__header, logo__signature {
-	display: inherit;
+.logo__img-container, 
+.logo__inscription-container, 
+.logo__header-container, 
+.logo__signature-container {
+	display: inline-block;
+}
+
+.logo__img-container, 
+.logo__inscription-container
+ {
+	vertical-align: middle;
 }
 
 .logo__header {
 	font: italic 41px 'Lucida Sans';
+	vertical-align: middle;
 }
 
 .logo__signature {
 	font: 13px 'LaoUI';
 }
 
-.navigation {
+.header__navigation {
+	float: right;
+	margin-left: auto;
+}
+
+.navigation__items-list {
 	background: #f5c506;
 	box-shadow:
 	-3px -3px rgba(245, 197, 6, 0.5), 
@@ -49,13 +82,12 @@ html, body {
 	padding: 10px;
 }
 
-
 .navigation__box {
 	background: #f5c506;
 	font: 17px 'Segoe WP';
 }
 
-.navigation__box li {
+.navigation__item {
     display: inline;
     margin-right: 5px;
     border-right: 1px solid #9b7d08;
@@ -64,17 +96,19 @@ html, body {
 	font-size: 17px;
 }
 
-.navigation__box li:last-child 
+.navigation__items-list li:last-child 
 { 
 	border-right: none;  
 }
 
-.caption {
+.header__caption {
 	font: 63px 'Asap Regular';
 	text-align: center;
+	float: right;
+	margin-left: auto;
 }
 
-.caption__cool {
+.caption__text--primary {
 	color: #f5c506;
 }
 
