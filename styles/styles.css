@@ -1,24 +1,25 @@
 @font-face {
-    font-family: LaoUI;
-    src: url("../fonts/LaoUI.ttf");
+	font-family: LaoUI;
+	src: url("../fonts/LaoUI.ttf");
 }
 
 @font-face {
-    font-family: 'Asap Regular';
-    src: url("../fonts/Asap-Regular.ttf");
+	font-family: 'Asap Regular';
+	src: url("../fonts/Asap-Regular.ttf");
 }
 
 @font-face {
-    font-family: 'Segoe WP';
-    src: url("../fonts/Segoe-WP.ttf");
+	font-family: 'Segoe WP';
+	src: url("../fonts/Segoe-WP.ttf");
 }
 
 @font-face {
-    font-family: 'Lucida Sans Italic';
-    src: url("../fonts/Lucida-Sans-Italic.ttf");
+	font-family: 'Lucida Sans Italic';
+	src: url("../fonts/Lucida-Sans-Italic.ttf");
 }
 
-html, body {
+html,
+body {
 	text-transform: uppercase;
 }
 
@@ -26,16 +27,15 @@ html, body {
 	background-image: url("../img/header_slide.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	box-shadow: 100px 0 100px -100px rgba(0,0,0,0.7) inset,
-	-100px 0 100px -100px rgba(0,0,0,0.7) inset,
-	0px 0px 10px rgba(0,0,0,0.7) inset;
+	box-shadow: 100px 0 100px -100px rgba(0, 0, 0, 0.7) inset, -100px 0 100px -100px rgba(0, 0, 0, 0.7) inset, 0px 0px 10px rgba(0, 0, 0, 0.7) inset;
 	color: #FFFFFF;
 }
 
- .header__inner-container {
-	padding: 1% 10%;
+.header__inner-container {
+	text-align: center;
 	margin: 0 auto;
 	max-width: 1020px;
+	padding: 1% 10%;
 }
 
 .header__top-container {
@@ -44,23 +44,22 @@ html, body {
 	align-items: flex-end;
 }
 
-.header__bottom-container{
+.header__bottom-container {
 	margin-top: 5%;
 	margin-bottom: 4.7%;
 	display: flex;
 	align-items: center;
 }
 
-.logo__img-container, 
-.logo__inscription-container, 
-.logo__header-container, 
+.logo__img-container,
+.logo__inscription-container,
+.logo__header-container,
 .logo__signature-container {
 	display: inline-block;
 }
 
-.logo__img-container, 
-.logo__inscription-container
- {
+.logo__img-container,
+.logo__inscription-container {
 	vertical-align: middle;
 }
 
@@ -84,34 +83,32 @@ html, body {
 
 .navigation__items-list {
 	background: #f5c506;
-	box-shadow:
-	-4px -6px rgba(245, 197, 6, 0.3), 
-	-8px -8px rgba(245, 167, 6, 0.2);
+	box-shadow: -4px -6px rgba(245, 197, 6, 0.3), -8px -8px rgba(245, 167, 6, 0.2);
 	padding: 9px;
 	font: 17px 'Segoe WP';
 }
 
 .navigation__item {
-    display: inline;
-    border-right: 1px solid #dcb105;
+	display: inline;
+	border-right: 1px solid #dcb105;
 	padding: 9px 15px;
 	color: #9b7d08;
 	font-size: 17px;
 }
 
-.navigation__items-list li:first-child { 
+.navigation__items-list li:first-child {
 	margin-left: 20px;
 }
 
-.navigation__items-list li:last-child { 
-	border-right: none;  
+.navigation__items-list li:last-child {
+	border-right: none;
 }
 
 .navigation__item-img {
 	margin-right: 4px;
 	margin-top: -5px;
 	vertical-align: middle;
-} 
+}
 
 .navigation__item-text {
 	margin-top: -5px;
@@ -138,23 +135,28 @@ html, body {
 	margin-bottom: -6px;
 }
 
-.content {
-	/* background-image: repeating-linear-gradient(
-		45deg,
-		#f4f4f4, 
-		#f4f4f4 2px,
-		#f7f7f7 2px,
-		#f7f7f7 6px);
-		height:500px; */
-		/* background-image:radial-gradient(circle, black 1px, transparent 1.5px);  
-		background-repeat: repeat-x, repeat-y; */
-		background-image:linear-gradient(45deg, 
-		transparent 15%,  
-		rgba(0,0,0,0.1) 15%, 
-		rgba(0,0,0,0.1) 10%, 
-		transparent 50%, 
-		transparent 65%,
-		rgba(0,0,0,0.1) 69%);
-  background-size: 6px 6px;
+
+
+.advertising {
+	background-image: linear-gradient(45deg, #f7f7f7 30%, #f4f4f4 30%, #f4f4f4 40%, #f7f7f7 40%, #f7f7f7 80%, #f4f4f4 82%);
+	background-size: 6px 6px;
 }
 
+.advertising__inner-container {
+	max-width: 1020px;	
+	text-align: center;
+}
+
+.advertising__items-list {
+
+}
+
+.advertising__item {
+	display: inline-block;
+	padding: 9px 15px;
+	font-size: 17px;
+}
+
+.advertising__item-text {
+	display: block;
+}
