@@ -14,6 +14,11 @@
 }
 
 @font-face {
+	font-family: 'Segoe WP Light';
+	src: url("../fonts/segoe-wp-light.ttf");
+}
+
+@font-face {
 	font-family: 'Lucida Sans Italic';
 	src: url("../fonts/Lucida-Sans-Italic.ttf");
 }
@@ -21,6 +26,11 @@
 @font-face {
 	font-family: 'Segoe UI';
 	src: url("../fonts/Segoe-UI.ttf");
+}
+
+@font-face {
+	font-family: 'PT Sans Regular';
+	src: url("../fonts/PT-Sans-Regular.ttf");
 }
 
 html,
@@ -194,9 +204,58 @@ body {
 }
 
 .main-sector {
-	background: linear-gradient(transparent 50%, rgba(0,186,0,0.2) 50%), 
-	linear-gradient(90deg, rgba(0,186,0,0.2) 50%, transparent 50%);
-background-size: 40px 40px;
-
-height: 500px;
+	background-color: #f5cc24;
+	background-size: 54px 54px;
+	background-position: 0 0, 27px 27px;
+	background-image: linear-gradient(
+		45deg, 
+		#f5c507 25%, 
+		transparent 25%, 
+		transparent 75%, 
+		#f5c507 75%, 
+		#f5c507),	
+		linear-gradient(
+			45deg, 
+			#f5c507 25%, 
+			transparent 25%, 
+			transparent 75%, 
+			#f5c507 75%, 
+			#f5c507);
 }
+
+.main-sector__inner-container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.main-sector__header-container {
+	padding: 3.1% 0;
+}
+
+.main-sector__header {
+	color: #ffffff;
+	font: 37.05px 'PT Sans Regular';
+	letter-spacing: 0.29px;
+}
+
+.news__items-list {
+	display: inline-block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.news__item {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.news__item-primary {
+	background: #ec9e03;
+	color: #ffffff;
+	font: 29.05px 'Segoe WP Light';
+	letter-spacing: 0.29px;
+	white-space: normal;
+}
+
+
