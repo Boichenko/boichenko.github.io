@@ -36,6 +36,14 @@
 html,
 body {
 	text-transform: uppercase;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+.site-layer {
+	min-height:100%;
+	position:relative;
 }
 
 .header {
@@ -50,7 +58,7 @@ body {
 	text-align: center;
 	margin: 0 auto;
 	max-width: 1020px;
-	padding: 1.05% 10%;
+	padding: 0.85% 10%;
 }
 
 .header__top-container {
@@ -296,20 +304,28 @@ body {
 }
 
 .main-sector {
-	box-shadow: inset 0em 5px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: inset 0em 3px 3px rgba(0, 0, 0, 0.4);
 }
 
-.footer__inner-container {
-	height: 500px;
-	background-color: black;
-	background-image: 
-	linear-gradient(#ffffff 25%, transparent 25%), 
-	linear-gradient(90deg, #ffffff 25%, transparent 25%), 
-	/* linear-gradient(transparent 75%, #d4d3d8 75%),  */
-	linear-gradient(90deg, transparent 75%, #eff0ea 75%), 
-	linear-gradient(#eff0ea 50%, transparent 50%), 
-	linear-gradient(90deg, #d4d3d8 50%, transparent 50%);
-	background-size: 20px 20px;
+.footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	top: 100%;
+	background-image: url('../img/footer.png');
+	background-repeat: repeat;
+	text-align: center;
+  }
+
+.footer__content-container {
+	background-image: url('../img/footer.png');
+	background-repeat: repeat;
 }
+
+.footer__logo-container {
+	background-color: #4c4c4c;
+}
+
 
 
