@@ -33,6 +33,11 @@
 	src: url("../fonts/PT-Sans-Regular.ttf");
 }
 
+@font-face {
+	font-family: 'Open Sans Regular';
+	src: url("../fonts/OpenSans-Regular.ttf");
+}
+
 html,
 body {
 	text-transform: uppercase;
@@ -323,9 +328,45 @@ body {
 	background-repeat: repeat;
 }
 
+.footer__content-header {
+	color: #f5c506;
+	font: 43.05px 'PT Sans Regular';
+	text-align: center;
+}
+
 .footer__logo-container {
 	background-color: #4c4c4c;
 }
+
+.footer__content-devices, .footer__content-possibilities {
+	display: inline-block;
+}
+
+.footer__content-possibilities {
+	padding-left: 30%;
+}
+
+.possibilities__item {
+	font: 22px 'Open Sans Regular';
+	color: #a3a3a1;
+	padding-top: 4%;
+}
+
+.possibilities__items-list {
+	text-align: left;
+	text-transform: none;
+}
+
+.possibilities__item::before {
+	content: " "; 
+	display: inline-block; 
+	border: solid .2em #f5c506;
+	border-radius: .2em;
+	margin-right: 20px;
+}
+
+
+
 
 
 
