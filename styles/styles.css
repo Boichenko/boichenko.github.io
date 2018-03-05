@@ -41,13 +41,9 @@
 html,
 body {
 	text-transform: uppercase;
-	margin:0;
-	padding:0;
-	height:100%;
 }
 
-.site-layer {
-	min-height:100%;
+.main-page {
 	position:relative;
 }
 
@@ -59,17 +55,31 @@ body {
 	color: #FFFFFF;
 }
 
+
 .header__inner-container {
-	text-align: center;
 	margin: 0 auto;
 	max-width: 1020px;
-	padding: 0.85% 10%;
+	padding: 1% 0;
 }
 
 .header__top-container {
 	margin-top: 0.6%;
-	display: flex;
-	align-items: flex-end;
+	/* display: flex;
+	align-items: flex-end; */
+	display: table;
+	width: 100%;
+}
+
+.header__logo {
+	margin-top: 0.2%;
+	display:table-cell;/**/
+}
+
+.header__navigation {
+	/* float: right; */
+	margin-left: auto;
+	display:table-cell;/**/
+	vertical-align: bottom;
 }
 
 .header__bottom-container {
@@ -86,9 +96,7 @@ body {
 	display: inline-block;
 }
 
-.header__logo {
-	margin-top: 0.2%;
-}
+
 
 .logo__img-container,
 .logo__inscription-container {
@@ -110,10 +118,7 @@ body {
 	letter-spacing: 0.2px;
 }
 
-.header__navigation {
-	float: right;
-	margin-left: auto;
-}
+
 
 .navigation__items-list {
 	background: #f5c506;
@@ -331,7 +336,7 @@ body {
   }
 
 .footer__content-container {
-	padding: 3.65% 0;
+	padding: 3.65% 0 10.2% 0;
 }
 
 .footer__content-header {
@@ -365,8 +370,8 @@ body {
 }
 
 .footer__logo-container {
-	height: 64px;
 	color: #ffffff;
+	box-shadow: 0px 0 5px 3px rgba(0,0,0, 0.75);
 }
 
 .logo__caption-container {
@@ -382,6 +387,10 @@ body {
 
 .footer__caption {
 	font: 29.05px 'Lucida Sans Italic';
+}
+
+.footer__logo {
+	padding: 6px;
 }
 
 
