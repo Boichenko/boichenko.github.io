@@ -1,0 +1,53 @@
+@media only screen and (max-width: 650px) {
+    .header__logo {
+        background: linear-gradient(#5d5d5d, #434343);
+        vertical-align: middle;
+    }
+    
+    .header__inner-container {
+        padding: 0;
+    }
+
+    .logo__img-container {
+        content: url("../img/logo-small.png");
+    }
+
+    .logo__header-text {
+        font: 19.29px 'Lucida Sans Italic';
+        vertical-align: middle;
+        letter-spacing: 0.2px;
+    }
+
+    .logo__signature-container {
+        display: none;
+    }
+
+    .header__navigation {
+        width: auto;
+    }
+
+    .navigation__items-list {
+        background: #f5c506;
+        box-shadow: none;
+    }
+    
+    .navigation__item {
+        display: inline;
+        border-right: 1px solid #dcb105;
+        color: #9b7d08;
+        font: 19.05px 'Segoe WP';
+        letter-spacing: 0.15px;
+    }
+    
+    .navigation__items-list li:first-child {
+        margin-left: 0;
+    }
+    
+    .navigation__items-list li:last-child {
+        border-right: none;
+    }
+
+    .header__caption {
+        display: none;
+    }
+}
