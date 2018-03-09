@@ -1,7 +1,13 @@
 @media only screen and (max-width: 650px) {
+    .header {
+        background: none;
+        box-shadow: none;
+    }
+
     .header__logo {
         background: linear-gradient(#5d5d5d, #434343);
         vertical-align: middle;
+        padding: 1.8% 0 2% 1.8%;
     }
     
     .header__inner-container {
@@ -12,10 +18,14 @@
         content: url("../img/logo-small.png");
     }
 
+    .logo__header-container {
+        vertical-align: middle;
+        padding-left: 1.8%;
+    }
+
     .logo__header-text {
         font: 19.29px 'Lucida Sans Italic';
-        vertical-align: middle;
-        letter-spacing: 0.2px;
+        letter-spacing: 0.5px;
     }
 
     .logo__signature-container {
@@ -24,30 +34,39 @@
 
     .header__navigation {
         width: auto;
+        vertical-align: middle;
     }
 
     .navigation__items-list {
-        background: #f5c506;
         box-shadow: none;
+        background: none;
+        padding: 0;
     }
     
     .navigation__item {
-        display: inline;
-        border-right: 1px solid #dcb105;
-        color: #9b7d08;
         font: 19.05px 'Segoe WP';
-        letter-spacing: 0.15px;
+        padding: 18px 15px;
+        background: #f5c506;
     }
     
     .navigation__items-list li:first-child {
         margin-left: 0;
     }
-    
-    .navigation__items-list li:last-child {
-        border-right: none;
-    }
 
     .header__caption {
         display: none;
+    }
+
+    .header__bottom-container {
+        padding: 0;
+    }
+
+    .header__player {
+        padding: 0;
+        width: 100%;
+    }
+    
+    .header__player-content {
+        width: 100%;
     }
 }
