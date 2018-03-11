@@ -1,4 +1,4 @@
-@media only screen and (max-width: 650px) {
+@media (max-width: 650px) {
     .header {
         background: none;
         box-shadow: none;
@@ -68,5 +68,64 @@
     
     .header__player-content {
         width: 100%;
+    }
+
+    .advertising__item {
+        border-right: none;
+    }
+
+    .advertising__items-list li:first-child {
+        border-left: none;
+    }
+
+    .main-sector {
+        background-image: none;
+        background: transparent;
+    }
+
+    .main-sector__inner-container {
+        padding-bottom: 0;
+    }
+
+    .main-sector__header-container {
+        display: none;
+    }
+
+    .main-sector__caption-text {
+	    font: 28.97px 'Segoe WP Light';
+    }
+
+    .main-sector__social-item {
+        display: table-row;
+        background: #f5c507;
+    }
+
+    .main-sector__news-add {
+        display: none;
+    }
+
+    .main-sector__count-container {
+        display: none;
+    }
+
+    .main-sector__caption-item, 
+    .main-sector__content-item {
+        width: 50%;
+    }
+
+    .main-sector__social-item {
+        width: 100%;
+    }
+
+    .footer__content-possibilities {
+        display: none;
+    }
+
+    .footer__caption {
+        font: 16.68px 'Lucida Sans Italic';
+    }
+
+    .footer-logo__img-container {
+        content: url("../img/footer-logo-small.png");
     }
 }
