@@ -7,7 +7,7 @@
     .header__logo {
         background: linear-gradient(#5d5d5d, #434343);
         vertical-align: middle;
-        padding: 1.8% 0 2% 1.8%;
+        padding: 1.8% 2.5% 2% 1.8%;
     }
     
     .header__inner-container {
@@ -35,6 +35,7 @@
     .header__navigation {
         width: auto;
         vertical-align: middle;
+        background: #f5c506;
     }
 
     .navigation__items-list {
@@ -46,7 +47,6 @@
     .navigation__item {
         font: 19.05px 'Segoe WP';
         padding: 18px 15px;
-        background: #f5c506;
     }
     
     .navigation__items-list li:first-child {
@@ -63,24 +63,30 @@
 
     .header__player {
         padding: 0;
-        width: 100%;
-    }
-    
-    .header__player-content {
-        width: 100%;
+        content: url("../img/player-small.png");
     }
 
+    .advertising__inner-container {
+        padding-bottom: 1.5%;
+    }
+    
     .advertising__item {
         border-right: none;
+        font: 23.05px 'Segoe UI';
     }
 
     .advertising__items-list li:first-child {
         border-left: none;
     }
 
+    .advertising__item-img {
+        height: 82%;
+    }
+
     .main-sector {
         background-image: none;
         background: transparent;
+        box-shadow: none;
     }
 
     .main-sector__inner-container {
@@ -91,16 +97,19 @@
         display: none;
     }
 
+    .main-sector__primary-container {
+        padding: 2% 1.5%;
+    }
+
     .main-sector__caption-text {
 	    font: 28.97px 'Segoe WP Light';
     }
 
     .main-sector__social-item {
-        display: table-row;
         background: #f5c507;
     }
 
-    .main-sector__news-add {
+    .main-sector__comment-add {
         display: none;
     }
 
@@ -108,13 +117,23 @@
         display: none;
     }
 
+    .main-sector__content-item {
+        padding-left: 1.5%;
+    }
+
     .main-sector__caption-item, 
     .main-sector__content-item {
+        display: table-cell;
         width: 50%;
+    }
+
+    .main-sector__caption-text {
+        letter-spacing: -0.6px;
     }
 
     .main-sector__social-item {
         width: 100%;
+        display: inline-block;
     }
 
     .footer__content-possibilities {

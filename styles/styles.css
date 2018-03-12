@@ -152,6 +152,7 @@ body {
 .header__player {
 	padding: 0.5% 1%;
 	display: inline-block;
+	content: url("../img/player.png");
 }
 
 .header__caption {
@@ -198,7 +199,7 @@ body {
 
 .advertising__item {
 	display: table-cell;
-	width:33.33%;
+	width: 33.33%;
 	font: 27.05px 'Segoe UI';
 	text-align: center;
 	border-right: 1px solid #d4d4d4;
@@ -255,15 +256,19 @@ body {
 	letter-spacing: 0.29px;
 }
 
+.main-sector__news-container {
+	display: table;
+}
+
 .main-sector__primary-container {
-	display: inline;
+	display: inline-block
 }
 
 .main-sector__caption-item, 
 .main-sector__content-item,
 .main-sector__social-item {
 	position: relative;
-	display: inline-block;
+	display: table-cell;
 	white-space: normal;
 	width: 33%;
 	vertical-align: middle;
@@ -290,12 +295,13 @@ body {
 .main-sector__caption-text {
 	text-transform: none;
     line-height: 134%;
-    letter-spacing: 0.4px;
+    letter-spacing: -0.2px;
 	color: #ffffff;
 	font: 29.05px 'Segoe WP Light';
 }
 
-.main-sector__news-add {
+.main-sector__caption-add, 
+.main-sector__comment-add {
 	position: absolute;
 	bottom: 5%;
 	right: 4%;
@@ -314,15 +320,6 @@ body {
 
 .main-sector {
 	box-shadow: inset 0em 3px 3px rgba(0, 0, 0, 0.4);
-}
-
-.main-sector__comment-media {
-	position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
 }
 
 .footer {
