@@ -14,7 +14,7 @@
         padding: 0;
     }
 
-    .logo__img-container {
+    .logo__img-container:after {
         content: url("../img/logo-small.png");
     }
 
@@ -50,7 +50,7 @@
     }
     
     .navigation__items-list li:first-child {
-        margin-left: 0;
+        padding-left: 9px;
     }
 
     .header__caption {
@@ -63,6 +63,9 @@
 
     .header__player {
         padding: 0;
+    }
+
+    .header__player:after {
         content: url("../img/player-small.png");
     }
 
@@ -134,6 +137,10 @@
     .main-sector__social-item {
         width: 100%;
         display: inline-block;
+    }
+
+    .main-sector__comment-media {
+        vertical-align: middle;
     }
 
     .footer__content-possibilities {

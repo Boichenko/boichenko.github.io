@@ -1,41 +1,41 @@
 @font-face {
 	font-family: LaoUI;
-	src: url("../fonts/LaoUI.ttf");
+	src: url("../fonts/LaoUI.ttf") format('truetype');
 }
 
 @font-face {
 	font-family: 'Asap Regular';
-	src: url("../fonts/Asap-Regular.ttf");
+	src: url("../fonts/Asap-Regular.ttf") format('truetype');
 }
 
 @font-face {
 	font-family: 'Segoe WP';
-	src: url("../fonts/Segoe-WP.ttf");
+	src: url("../fonts/Segoe-WP.ttf") format('truetype');
 }
 
 @font-face {
 	font-family: 'Segoe WP Light';
-	src: url("../fonts/segoe-wp-light.ttf");
+	src: url("../fonts/segoe-wp-light.ttf") format('truetype');
 }
 
 @font-face {
 	font-family: 'Lucida Sans Italic';
-	src: url("../fonts/Lucida-Sans-Italic.ttf");
+	src: url("../fonts/Lucida-Sans-Italic.ttf") format('truetype');
 }
 
 @font-face {
 	font-family: 'Segoe UI';
-	src: url("../fonts/Segoe-UI.ttf");
+	src: url("../fonts/Segoe-UI.ttf") format('truetype');
 }
 
 @font-face {
 	font-family: 'PT Sans Regular';
-	src: url("../fonts/PT-Sans-Regular.ttf");
+	src: url("../fonts/PT-Sans-Regular.ttf") format('truetype');
 }
 
 @font-face {
 	font-family: 'Open Sans Regular';
-	src: url("../fonts/OpenSans-Regular.ttf");
+	src: url("../fonts/OpenSans-Regular.ttf") format('truetype');
 }
 
 html,
@@ -58,7 +58,7 @@ body {
 .header__inner-container {
 	margin: 0 auto;
 	max-width: 1020px;
-	padding: 1.5% 0 3.55% 0;
+	padding: 2.3% 0 5.5% 0;
 }
 
 .header__top-container {
@@ -96,7 +96,7 @@ body {
 	padding-top: 3%;
 }
 
-.logo__img-container {
+.logo__img-container:after {
 	content: url("../img/logo.png");
 }
 
@@ -117,13 +117,13 @@ body {
 }
 
 .navigation__items-list {
+	display: table;
 	background: #f5c506;
 	box-shadow: -4px -4px rgba(245, 197, 6, 0.3), -8px -8px rgba(245, 167, 6, 0.2);
-	padding: 9px;
 }
 
 .navigation__item {
-	display: inline;
+	display: table-cell;
 	border-right: 1px solid #dcb105;
 	padding: 9px 15px;
 	color: #9b7d08;
@@ -132,7 +132,7 @@ body {
 }
 
 .navigation__items-list li:first-child {
-	margin-left: 3.8%;
+	padding-left: 40px
 }
 
 .navigation__items-list li:last-child {
@@ -152,6 +152,9 @@ body {
 .header__player {
 	padding: 0.5% 1%;
 	display: inline-block;
+}
+
+.header__player:after {
 	content: url("../img/player.png");
 }
 
@@ -402,6 +405,16 @@ body {
 
 .footer__logo {
 	padding: 6px;
+}
+
+.media-sector__helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.main-sector__comment-media {
+	vertical-align: middle;
 }
 
 
