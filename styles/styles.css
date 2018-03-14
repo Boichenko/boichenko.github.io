@@ -58,7 +58,7 @@ body {
 .header__inner-container {
 	margin: 0 auto;
 	max-width: 1020px;
-	padding: 2.3% 0 5.5% 0;
+	padding: 1.6% 0 3.45% 0;
 }
 
 .header__top-container {
@@ -79,6 +79,7 @@ body {
 
 .header__bottom-container {
 	padding: 5.2% 0 0 0;
+	text-align: center;
 }
 
 .logo__img-container,
@@ -90,6 +91,11 @@ body {
 .logo__img-container,
 .logo__header-container {
 	vertical-align: middle;
+}
+
+.logo__img-container,
+.header__text-container {
+	display: inline-block;
 }
 
 .logo__header-container {
@@ -300,7 +306,7 @@ body {
     line-height: 134%;
     letter-spacing: -0.2px;
 	color: #ffffff;
-	font: 29.05px 'Segoe WP Light';
+	font: 1.5vw 'Segoe WP Light';
 }
 
 .main-sector__caption-add, 

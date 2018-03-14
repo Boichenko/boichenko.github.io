@@ -1,4 +1,33 @@
-@media (max-width: 650px) {
+@media only screen and (max-width: 1019px) and (min-width: 651px) {
+    .header__logo {
+        text-align: center;
+    }
+
+    .header__logo, 
+    .header__navigation {
+        display: block;
+    }
+
+    .header__navigation {
+        margin: 0;
+        width: auto;
+    }
+
+    .navigation__inner-container {
+        margin: 0 auto;
+        padding-top: 5%;
+    }
+
+    .navigation__items-list {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 940) and (min-width: 651px) {
+ 
+}
+
+@media only screen and (max-width: 650px) {
     .header {
         background: none;
         box-shadow: none;
