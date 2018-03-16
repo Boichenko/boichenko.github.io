@@ -150,10 +150,6 @@ body {
 	vertical-align: middle;
 }
 
-.navigation__item-text {
-	margin-top: -5px;
-}
-
 .player {
 	padding: 0.5% 1%;
 	display: inline-block;
