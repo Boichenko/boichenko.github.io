@@ -1,0 +1,12 @@
+.logo__primary-text {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 3%;
+}
+
+@media only screen and (max-width: 650px) {
+    .logo__primary-text {
+        vertical-align: middle;
+        padding-left: 1.8%;
+	}
+}

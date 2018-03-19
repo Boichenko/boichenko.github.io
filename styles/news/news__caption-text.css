@@ -1,0 +1,26 @@
+.news__caption-text {
+	text-transform: none;
+    line-height: 134%;
+    letter-spacing: -0.2px;
+	color: #ffffff;
+	font: 29.05px 'Segoe WP Light';
+}
+
+@media only screen and (max-width: 1019px) and (min-width: 651px) {
+    .news__caption-text {
+	    font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 940px) and (min-width: 651px){
+    .main-sector__caption-text {
+	    font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .news__caption-text {
+        font: 4vw 'Segoe WP Light';
+        letter-spacing: -0.6px;
+    }
+}

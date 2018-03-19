@@ -1,0 +1,12 @@
+.possibilities {
+	padding-left: 9.5%;
+	max-width: 456px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+@media only screen and (max-width: 650px) {
+    .possibilities {
+        display: none;
+	}
+}

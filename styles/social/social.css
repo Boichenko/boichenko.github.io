@@ -1,0 +1,21 @@
+.social {
+    font-family: 'social' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    color: #c18000;
+  
+    font-size: 1000%;
+    vertical-align: middle;
+  }
+  
+  .social-twitter:before {
+    content: "\ea96";
+  }

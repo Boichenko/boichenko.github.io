@@ -1,0 +1,14 @@
+.header {
+	background-image: url("../../img/header_slide.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	box-shadow: 100px 0 100px -100px rgba(0, 0, 0, 0.7) inset, -100px 0 100px -100px rgba(0, 0, 0, 0.7) inset, 0px 0px 10px rgba(0, 0, 0, 0.7) inset;
+	color: #FFFFFF;
+}
+
+@media only screen and (max-width: 650px) {
+    .header {
+        background: none;
+        box-shadow: none;
+	}
+}

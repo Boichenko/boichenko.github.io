@@ -1,0 +1,11 @@
+.news__comment-add {
+	position: absolute;
+	bottom: 5%;
+	right: 4%;
+}
+
+@media only screen and (max-width: 650px) {
+    .news__comment-add {
+        display: none;
+	}
+}

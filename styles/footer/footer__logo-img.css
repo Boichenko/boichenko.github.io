@@ -1,0 +1,11 @@
+.footer__logo-img {
+    content: url("../../img/footer-logo.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 650px) {
+    .footer__logo-img {
+        content: url("../../img/footer-logo-small.png");
+    }
+}

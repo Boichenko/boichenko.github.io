@@ -1,0 +1,9 @@
+.main-sector__header-container {
+	padding: 3.1% 0;
+}
+
+@media only screen and (max-width: 650px) {
+    .main-sector__header-container {
+        display: none;
+	}
+}

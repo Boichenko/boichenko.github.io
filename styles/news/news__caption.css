@@ -1,0 +1,22 @@
+.news__caption {
+	position: relative;
+	display: table-cell;
+	white-space: normal;
+	width: 33%;
+	vertical-align: middle;
+	height: 231.98px;
+	background: #ec9e03;
+}
+
+@media only screen and (max-width: 940px) and (min-width: 651px){
+    .news__caption {
+        display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+    .news__caption {
+        display: table-cell;
+        width: 50%;
+	}
+}

@@ -1,0 +1,16 @@
+.navigation__item {
+	display: table-cell;
+	border-right: 1px solid #dcb105;
+	padding: 9px 15px;
+	color: #9b7d08;
+	font: 17px 'Segoe WP';
+	letter-spacing: 0.15px;
+}
+
+@media only screen and (max-width: 650px) {
+    .navigation__item {
+        font: 19.05px 'Segoe WP';
+		padding: 18px 15px;
+		font-size: 3vw;
+    }
+}

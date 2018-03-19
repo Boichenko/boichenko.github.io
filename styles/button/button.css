@@ -1,0 +1,21 @@
+.button {
+    font-family: 'button' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    color: #ffffff;
+    font-size: 80%;
+  }
+  
+  .button-plus:before {
+    content: "\e900";
+  }
+  
+  
