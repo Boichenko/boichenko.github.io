@@ -1,5 +1,5 @@
-.main-sector__header {
-	color: #ffffff;
-	font: 37.05px 'PT Sans Regular';
-	letter-spacing: 0.29px;
+.main-sector__header
+{ font: 37.05px 'PT Sans Regular';  letter-spacing: .29px;
+
+    color: #fff; 
 }

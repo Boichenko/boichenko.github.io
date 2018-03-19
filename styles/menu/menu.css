@@ -1,27 +1,17 @@
-.menu {
-    font-family: 'menu' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  
-    color: #b99403;
-    font-size: 120%;
-  
-    vertical-align: text-top;
-  }
-  
-  .menu-user:before {
-    content: "\e971";
-  }
-  .menu-wrench:before {
-    content: "\e991";
-  }
-  .menu-envelope:before {
-    content: "\f0e0";
-  }
+.menu
+{
+    font-family: 'menu' !important;  font-size: 120%;  font-weight: normal;  font-style: normal;  font-variant: normal;  line-height: 1;  vertical-align: text-top; text-transform: none;  color: #b99403;  speak: none;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale; 
+}
+
+.menu-user:before
+{
+    content: '\e971';
+}
+.menu-wrench:before
+{
+    content: '\e991';
+}
+.menu-envelope:before
+{
+    content: '\f0e0';
+}

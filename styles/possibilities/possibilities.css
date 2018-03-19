@@ -1,12 +1,12 @@
-.possibilities {
-	padding-left: 9.5%;
-	max-width: 456px;
-	box-sizing: border-box;
-	display: inline-block;
+.possibilities
+{ display: inline-block; box-sizing: border-box;  max-width: 456px; 
+    padding-left: 9.5%; 
 }
 
-@media only screen and (max-width: 650px) {
-    .possibilities {
+@media only screen and (max-width: 650px)
+{
+    .possibilities
+    {
         display: none;
-	}
+    }
 }

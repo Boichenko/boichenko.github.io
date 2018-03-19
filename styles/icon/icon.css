@@ -1,28 +1,21 @@
-.icon {
-    font-family: 'advertising' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    color: #f5c506;
-  
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  
-    font-size: 354%;
-  }
-  
-  .icon-leaf:before {
-    content: "\e9a4";
-  }
-  .icon-cloud-download:before {
-    content: "\f0ed";
-  }
-  .icon-paper-plane:before {
-    content: "\f1d8";
-  }
-  .icon-send:before {
-    content: "\f1d8";
-  }
+.icon
+{
+    font-family: 'advertising' !important;  font-size: 354%; font-weight: normal;  font-style: normal;  font-variant: normal;  line-height: 1;  text-transform: none;  color: #f5c506;  speak: none;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale; 
+}
+
+.icon-leaf:before
+{
+    content: '\e9a4';
+}
+.icon-cloud-download:before
+{
+    content: '\f0ed';
+}
+.icon-paper-plane:before
+{
+    content: '\f1d8';
+}
+.icon-send:before
+{
+    content: '\f1d8';
+}

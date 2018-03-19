@@ -1,5 +1,4 @@
-.caption__text-secondary {
-	margin-left: 10px;
-	margin-bottom: -6px;
-	letter-spacing: 0.6px;
+.caption__text-secondary
+{ margin-bottom: -6px; 
+    margin-left: 10px;  letter-spacing: .6px;
 }

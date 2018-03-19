@@ -1,15 +1,12 @@
-.caption {
-	font: 63px 'Asap Regular';
-	text-align: center;
-	padding: 7.9% 0 0 2.2%;
-	letter-spacing: 0.6px;
-	display: inline-block;
-	line-height: 1.2;
-	vertical-align: top;
+.caption
+{
+    font: 63px 'Asap Regular';  line-height: 1.2;  display: inline-block;  padding: 7.9% 0 0 2.2%;  text-align: center;  vertical-align: top; letter-spacing: .6px; 
 }
 
-@media only screen and (max-width: 650px) {
-    .caption {
+@media only screen and (max-width: 650px)
+{
+    .caption
+    {
         display: none;
-	}
+    }
 }

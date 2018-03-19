@@ -1,5 +1,4 @@
-.news__img-helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+.news__img-helper
+{
+    display: inline-block;  height: 100%;  vertical-align: middle;
 }

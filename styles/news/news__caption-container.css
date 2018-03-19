@@ -1,7 +1,9 @@
-.news__caption-container {
+.news__caption-container
+{
     padding: 0 8% 3.8% 8%;
 }
 
-.news__caption-container:first-letter{
-	text-transform: capitalize;
+.news__caption-container:first-letter
+{
+    text-transform: capitalize;
 }

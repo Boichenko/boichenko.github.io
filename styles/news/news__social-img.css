@@ -1,9 +1,12 @@
-.news__social-img {
-	vertical-align: middle;
+.news__social-img
+{
+    vertical-align: middle;
 }
 
-@media only screen and (max-width: 650px) {
-    .news__social-img {
+@media only screen and (max-width: 650px)
+{
+    .news__social-img
+    {
         vertical-align: middle;
-	}
+    }
 }

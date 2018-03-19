@@ -1,14 +1,12 @@
-.header {
-	background-image: url("../../img/header_slide.png");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	box-shadow: 100px 0 100px -100px rgba(0, 0, 0, 0.7) inset, -100px 0 100px -100px rgba(0, 0, 0, 0.7) inset, 0px 0px 10px rgba(0, 0, 0, 0.7) inset;
-	color: #FFFFFF;
+.header
+{ color: #fff;
+    background-image: url('../../img/header_slide.png');  background-repeat: no-repeat;  background-size: 100% 100%;  box-shadow: 100px 0 100px -100px rgba(0, 0, 0, .7) inset, -100px 0 100px -100px rgba(0, 0, 0, .7) inset, 0 0 10px rgba(0, 0, 0, .7) inset; 
 }
 
-@media only screen and (max-width: 650px) {
-    .header {
-        background: none;
-        box-shadow: none;
-	}
+@media only screen and (max-width: 650px)
+{
+    .header
+    {
+        background: none;  box-shadow: none;
+    }
 }

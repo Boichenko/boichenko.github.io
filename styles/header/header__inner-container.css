@@ -1,11 +1,12 @@
-.header__inner-container {
-	margin: 0 auto;
-	max-width: 1020px;
-	padding: 1.6% 0 3.45% 0;
+.header__inner-container
+{ max-width: 1020px; 
+    margin: 0 auto;  padding: 1.6% 0 3.45% 0;
 }
 
-@media only screen and (max-width: 650px) {
-    .header__inner-container {
+@media only screen and (max-width: 650px)
+{
+    .header__inner-container
+    {
         padding: 0;
-	}
+    }
 }

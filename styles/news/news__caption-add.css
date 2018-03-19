@@ -1,5 +1,4 @@
-.news__caption-add {
-	position: absolute;
-	bottom: 5%;
-	right: 4%;
+.news__caption-add
+{
+    position: absolute;  right: 4%; bottom: 5%; 
 }

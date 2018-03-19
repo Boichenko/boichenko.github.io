@@ -1,10 +1,12 @@
-.advertising__inner-container {
-	max-width: 1020px;	
-	margin: 0 auto;
+.advertising__inner-container
+{
+    max-width: 1020px;  margin: 0 auto;
 }
 
-@media only screen and (max-width: 650px) {
-    .advertising__inner-container {
+@media only screen and (max-width: 650px)
+{
+    .advertising__inner-container
+    {
         padding-bottom: 1.5%;
-	}
+    }
 }

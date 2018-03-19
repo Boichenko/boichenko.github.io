@@ -1,11 +1,12 @@
-.main-sector__inner-container {
-	max-width: 1020px;
-	margin: 0 auto;
-	padding-bottom: 9.05%;
+.main-sector__inner-container
+{
+    max-width: 1020px;  margin: 0 auto;  padding-bottom: 9.05%;
 }
 
-@media only screen and (max-width: 650px) {
-    .main-sector__inner-container {
+@media only screen and (max-width: 650px)
+{
+    .main-sector__inner-container
+    {
         padding-bottom: 0;
-	}
+    }
 }

@@ -1,19 +1,22 @@
-.logo {
-	display:table-cell;
+.logo
+{
+    display: table-cell;
 }
 
-@media only screen and (max-width: 1019px) and (min-width: 651px) {
-    .logo {
-        text-align: center;
-        display: block;
-	}
+@media only screen and (max-width: 1019px) and (min-width: 651px)
+{
+    .logo
+    { display: block;
+
+        text-align: center; 
+    }
 }
 
-@media only screen and (max-width: 650px) {
-    .logo {
-        background: linear-gradient(#5d5d5d, #434343);
-        vertical-align: middle;
-        padding: 1.8% 2.5% 2% 1.8%;
-        text-align: center;
-	}
+@media only screen and (max-width: 650px)
+{
+    .logo
+    { padding: 1.8% 2.5% 2% 1.8%;  text-align: center; vertical-align: middle; 
+
+        background: linear-gradient(#5d5d5d, #434343); 
+    }
 }
