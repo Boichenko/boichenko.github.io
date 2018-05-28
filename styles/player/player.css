@@ -1,22 +1,23 @@
 .player
 {
-    display: inline-block;  padding: .5% 1%;
+	display: inline-block;
+	padding: .5% 1%;
 }
 
 .player:after
 {
-    content: url('../../img/player.png');
+	content: url('../../img/player.png');
 }
 
 @media only screen and (max-width: 650px)
 {
-    .player
-    {
-        padding: 0;
-    }
+	.player
+	{
+		padding: 0;
+	}
 
-    .player:after
-    {
-        content: url('../../img/player-small.png');
-    }
+	.player:after
+	{
+		content: url('../../img/player-small.png');
+	}
 }

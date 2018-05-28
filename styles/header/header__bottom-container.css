@@ -1,30 +1,29 @@
 .header__bottom-container
 {
-    padding: 5.2% 0 0 0;
+	padding: 5.2% 0 0 0;
 }
 
 @media only screen and (max-width: 1019px) and (min-width: 651px)
 {
-    .header__bottom-container
-    {
-        text-align: center;
-    }
+	.header__bottom-container
+	{
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 940px) and (min-width: 651px)
 {
-    .header__bottom-container
-    {
-        text-align: center;
-    }
+	.header__bottom-container
+	{
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 650px)
 {
-    .header__bottom-container
-    {
-        padding: 0;
-
-        text-align: center;
-    }
+	.header__bottom-container
+	{
+		padding: 0;
+		text-align: center;
+	}
 }

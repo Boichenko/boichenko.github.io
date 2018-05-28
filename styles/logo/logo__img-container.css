@@ -1,20 +1,19 @@
 .logo__img-container
 {
-    display: inline-block;
-    display: inline-block;
-
-    vertical-align: middle;
+	display: inline-block;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .logo__img-container:after
 {
-    content: url('../../img/logo.png');
+	content: url('../../img/logo.png');
 }
 
 @media only screen and (max-width: 650px)
 {
-    .logo__img-container:after
-    {
-        content: url('../../img/logo-small.png');
-    }
+	.logo__img-container:after
+	{
+		content: url('../../img/logo-small.png');
+	}
 }

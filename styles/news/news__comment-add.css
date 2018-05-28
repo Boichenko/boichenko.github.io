@@ -1,14 +1,14 @@
 .news__comment-add
 {
-    position: absolute;
-    right: 4%;
-    bottom: 5%;
+	position: absolute;
+	right: 4%;
+	bottom: 5%;
 }
 
 @media only screen and (max-width: 650px)
 {
-    .news__comment-add
-    {
-        display: none;
-    }
+	.news__comment-add
+	{
+		display: none;
+	}
 }

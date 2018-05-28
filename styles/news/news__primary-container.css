@@ -1,25 +1,23 @@
 .news__primary-container
 {
-    display: inline-block;
+	display: inline-block;
 }
 
 @media only screen and (max-width: 940px) and (min-width: 651px)
 {
-    .news__primary-container
-    {
-        display: block;
-
-        margin: 0 auto;
-        padding-bottom: 2%;
-
-        text-align: center;
-    }
+	.news__primary-container
+	{
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 2%;
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 650px)
 {
-    .news__primary-container
-    {
-        padding: 2% 1.5%;
-    }
+	.news__primary-container
+	{
+		padding: 2% 1.5%;
+	}
 }

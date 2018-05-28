@@ -1,143 +1,151 @@
-@import "styles/main-page/main-page.css" screen;
-@import "styles/header/header.css" screen;
-@import "styles/header/header__bottom-container.css" screen;
-@import "styles/header/header__top-container.css" screen;
-@import "styles/header/header__text-container.css" screen;
-@import "styles/header/header__inner-container.css" screen;
-@import "styles/logo/logo.css" screen;
-@import "styles/logo/logo__caption.css" screen;
-@import "styles/logo/logo__img-container.css" screen;
-@import "styles/logo/logo__primary-text.css" screen;
-@import "styles/logo/logo__secondary-text.css" screen;
-@import "styles/logo/logo__signature.css" screen;
-@import "styles/navigation/navigation.css" screen;
-@import "styles/navigation/navigation__item-img.css" screen;
-@import "styles/navigation/navigation__inner-container.css" screen;
-@import "styles/navigation/navigation__item.css" screen;
-@import "styles/navigation/navigation__items-list.css" screen;
-@import "styles/player/player.css" screen;
-@import "styles/caption/caption.css" screen;
-@import "styles/caption/caption__text-primary.css" screen;
-@import "styles/caption/caption__text-secondary.css" screen;
-@import "styles/advertising/advertising.css" screen;
-@import "styles/advertising/advertising__item-container.css" screen;
-@import "styles/advertising/advertising__inner-container.css" screen;
-@import "styles/advertising/advertising__item.css" screen;
-@import "styles/advertising/advertising__item-text.css" screen;
-@import "styles/advertising/advertising__items-list.css" screen;
-@import "styles/advertising/advertising__item-img.css" screen;
-@import "styles/main-sector/main-sector.css" screen;
-@import "styles/main-sector/main-sector__header.css" screen;
-@import "styles/main-sector/main-sector__header-container.css" screen;
-@import "styles/main-sector/main-sector__inner-container.css" screen;
-@import "styles/news/news.css" screen;
-@import "styles/news/news__caption-add.css" screen;
-@import "styles/news/news__caption-container.css" screen;
-@import "styles/news/news__caption-text.css" screen;
-@import "styles/news/news__caption.css" screen;
-@import "styles/news/news__comment-add.css" screen;
-@import "styles/news/news__content.css" screen;
-@import "styles/news/news__count-container.css" screen;
-@import "styles/news/news__count.css" screen;
-@import "styles/news/news__img-helper.css" screen;
-@import "styles/news/news__primary-container.css" screen;
-@import "styles/news/news__social-img.css" screen;
-@import "styles/news/news__social.css" screen;
-@import "styles/news/news__social.css" screen;
-@import "styles/footer/footer.css" screen;
-@import "styles/footer/footer__caption-text.css" screen;
-@import "styles/footer/footer__caption.css" screen;
-@import "styles/footer/footer__inner-container.css" screen;
-@import "styles/footer/footer__logo-caption.css" screen;
-@import "styles/footer/footer__logo-container.css" screen;
-@import "styles/footer/footer__logo-img.css" screen;
-@import "styles/footer/footer__logo.css" screen;
-@import "styles/devices/devices.css" screen;
-@import "styles/possibilities/possibilities.css" screen;
-@import "styles/possibilities/possibilities__items-list.css" screen;
-@import "styles/possibilities/possibilities__item.css" screen;
-@import "styles/social/social.css" screen;
-@import "styles/menu/menu.css" screen;
-@import "styles/button/button.css" screen;
-@import "styles/icon/icon.css" screen;
+@import 'styles/main-page/main-page.css' screen;
+@import 'styles/header/header.css' screen;
+@import 'styles/header/header__bottom-container.css' screen;
+@import 'styles/header/header__top-container.css' screen;
+@import 'styles/header/header__text-container.css' screen;
+@import 'styles/header/header__inner-container.css' screen;
+@import 'styles/logo/logo.css' screen;
+@import 'styles/logo/logo__caption.css' screen;
+@import 'styles/logo/logo__img-container.css' screen;
+@import 'styles/logo/logo__primary-text.css' screen;
+@import 'styles/logo/logo__secondary-text.css' screen;
+@import 'styles/logo/logo__signature.css' screen;
+@import 'styles/navigation/navigation.css' screen;
+@import 'styles/navigation/navigation__item-img.css' screen;
+@import 'styles/navigation/navigation__inner-container.css' screen;
+@import 'styles/navigation/navigation__item.css' screen;
+@import 'styles/navigation/navigation__items-list.css' screen;
+@import 'styles/player/player.css' screen;
+@import 'styles/caption/caption.css' screen;
+@import 'styles/caption/caption__text-primary.css' screen;
+@import 'styles/caption/caption__text-secondary.css' screen;
+@import 'styles/advertising/advertising.css' screen;
+@import 'styles/advertising/advertising__item-container.css' screen;
+@import 'styles/advertising/advertising__inner-container.css' screen;
+@import 'styles/advertising/advertising__item.css' screen;
+@import 'styles/advertising/advertising__item-text.css' screen;
+@import 'styles/advertising/advertising__items-list.css' screen;
+@import 'styles/advertising/advertising__item-img.css' screen;
+@import 'styles/main-sector/main-sector.css' screen;
+@import 'styles/main-sector/main-sector__header.css' screen;
+@import 'styles/main-sector/main-sector__header-container.css' screen;
+@import 'styles/main-sector/main-sector__inner-container.css' screen;
+@import 'styles/news/news.css' screen;
+@import 'styles/news/news__caption-add.css' screen;
+@import 'styles/news/news__caption-container.css' screen;
+@import 'styles/news/news__caption-text.css' screen;
+@import 'styles/news/news__caption.css' screen;
+@import 'styles/news/news__comment-add.css' screen;
+@import 'styles/news/news__content.css' screen;
+@import 'styles/news/news__count-container.css' screen;
+@import 'styles/news/news__count.css' screen;
+@import 'styles/news/news__img-helper.css' screen;
+@import 'styles/news/news__primary-container.css' screen;
+@import 'styles/news/news__social-img.css' screen;
+@import 'styles/news/news__social.css' screen;
+@import 'styles/news/news__social.css' screen;
+@import 'styles/footer/footer.css' screen;
+@import 'styles/footer/footer__caption-text.css' screen;
+@import 'styles/footer/footer__caption.css' screen;
+@import 'styles/footer/footer__inner-container.css' screen;
+@import 'styles/footer/footer__logo-caption.css' screen;
+@import 'styles/footer/footer__logo-container.css' screen;
+@import 'styles/footer/footer__logo-img.css' screen;
+@import 'styles/footer/footer__logo.css' screen;
+@import 'styles/devices/devices.css' screen;
+@import 'styles/possibilities/possibilities.css' screen;
+@import 'styles/possibilities/possibilities__items-list.css' screen;
+@import 'styles/possibilities/possibilities__item.css' screen;
+@import 'styles/social/social.css' screen;
+@import 'styles/menu/menu.css' screen;
+@import 'styles/button/button.css' screen;
+@import 'styles/icon/icon.css' screen;
 
 
-@font-face {
+@font-face
+{
 	font-family: LaoUI;
-	src: url("fonts/LaoUI.ttf") format('truetype');
+	src: url('fonts/LaoUI.ttf') format('truetype');
 }
 
-@font-face {
+@font-face
+{
 	font-family: 'Asap Regular';
-	src: url("fonts/Asap-Regular.ttf") format('truetype');
+	src: url('fonts/Asap-Regular.ttf') format('truetype');
 }
 
-@font-face {
+@font-face
+{
 	font-family: 'Segoe WP';
-	src: url("fonts/Segoe-WP.ttf") format('truetype');
+	src: url('fonts/Segoe-WP.ttf') format('truetype');
 }
 
-@font-face {
+@font-face
+{
 	font-family: 'Segoe WP Light';
-	src: url("fonts/segoe-wp-light.ttf") format('truetype');
+	src: url('fonts/segoe-wp-light.ttf') format('truetype');
 }
 
-@font-face {
+@font-face
+{
 	font-family: 'Lucida Sans Italic';
-	src: url("fonts/Lucida-Sans-Italic.ttf") format('truetype');
+	src: url('fonts/Lucida-Sans-Italic.ttf') format('truetype');
 }
 
-@font-face {
+@font-face
+{
 	font-family: 'Segoe UI';
-	src: url("fonts/Segoe-UI.ttf") format('truetype');
+	src: url('fonts/Segoe-UI.ttf') format('truetype');
 }
 
-@font-face {
+@font-face
+{
 	font-family: 'PT Sans Regular';
-	src: url("fonts/PT-Sans-Regular.ttf") format('truetype');
+	src: url('fonts/PT-Sans-Regular.ttf') format('truetype');
 }
 
-@font-face {
+@font-face
+{
 	font-family: 'Open Sans Regular';
-	src: url("fonts/OpenSans-Regular.ttf") format('truetype');
+	src: url('fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
-@font-face {
+@font-face
+{
 	font-family: 'social';
-	src:
-	  url('fonts/social.ttf?uwv1ce') format('truetype'),
-	  url('fonts/social.woff?uwv1ce') format('woff'),
-	  url('fonts/social.svg?uwv1ce#social') format('svg');
+	src: url('fonts/social.ttf?uwv1ce') format('truetype'),
+	url('fonts/social.woff?uwv1ce') format('woff'),
+	url('fonts/social.svg?uwv1ce#social') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-@font-face {
+@font-face
+{
 	font-family: 'advertising';
-	src:
-	  url('fonts/advertising.ttf?f0om51') format('truetype'),
-	  url('fonts/advertising.woff?f0om51') format('woff'),
-	  url('fonts/advertising.svg?f0om51#advertising') format('svg');
+	src: url('fonts/advertising.ttf?f0om51') format('truetype'),
+	url('fonts/advertising.woff?f0om51') format('woff'),
+	url('fonts/advertising.svg?f0om51#advertising') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-@font-face {
+@font-face
+{
 	font-family: 'button';
-	src:
-	  url('fonts/button.ttf?8xi7lq') format('truetype'),
-	  url('fonts/button.woff?8xi7lq') format('woff'),
-	  url('fonts/button.svg?8xi7lq#button') format('svg');
+	src: url('fonts/button.ttf?8xi7lq') format('truetype'),
+	url('fonts/button.woff?8xi7lq') format('woff'),
+	url('fonts/button.svg?8xi7lq#button') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-@font-face {
+@font-face
+{
 	font-family: 'menu';
-	src:
-	  url('fonts/menu.ttf?63c82j') format('truetype'),
-	  url('fonts/menu.woff?63c82j') format('woff'),
-	  url('fonts/menu.svg?63c82j#menu') format('svg');
+	src: url('fonts/menu.ttf?63c82j') format('truetype'),
+	url('fonts/menu.woff?63c82j') format('woff'),
+	url('fonts/menu.svg?63c82j#menu') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

@@ -1,32 +1,27 @@
 .news__caption
 {
-    position: relative;
-
-    display: table-cell;
-
-    width: 33%;
-    height: 231.98px;
-
-    vertical-align: middle;
-    white-space: normal;
-
-    background: #ec9e03;
+	position: relative;
+	display: table-cell;
+	width: 33%;
+	height: 231.98px;
+	vertical-align: middle;
+	white-space: normal;
+	background: #ec9e03;
 }
 
 @media only screen and (max-width: 940px) and (min-width: 651px)
 {
-    .news__caption
-    {
-        display: inline-block;
-    }
+	.news__caption
+	{
+		display: inline-block;
+	}
 }
 
 @media only screen and (max-width: 650px)
 {
-    .news__caption
-    {
-        display: table-cell;
-
-        width: 50%;
-    }
+	.news__caption
+	{
+		display: table-cell;
+		width: 50%;
+	}
 }
