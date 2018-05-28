@@ -1,0 +1,196 @@
+.news
+{
+	display: table;
+}
+
+.news__social
+{
+	position: relative;
+	display: table-cell;
+	width: 33%;
+	height: 231.98px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: normal;
+	background: #ec9e03;
+}
+
+.news__social-img
+{
+	vertical-align: middle;
+}
+
+.news__primary-container
+{
+	display: inline-block;
+}
+
+.news__img-helper
+{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.news__count
+{
+	font: 25.05px 'Segoe WP Light';
+	color: #ffffff;
+}
+
+.news__count-container
+{
+	position: absolute;
+	top: 5%;
+	right: 4%;
+}
+
+.news__content
+{
+	position: relative;
+	display: table-cell;
+	width: 33%;
+	height: 231.98px;
+	vertical-align: middle;
+	white-space: normal;
+}
+
+.news__comment-add
+{
+	position: absolute;
+	right: 4%;
+	bottom: 5%;
+}
+
+.news__caption
+{
+	position: relative;
+	display: table-cell;
+	width: 33%;
+	height: 231.98px;
+	vertical-align: middle;
+	white-space: normal;
+	background: #ec9e03;
+}
+
+.news__caption-text
+{
+	font: 29.05px 'Segoe WP Light';
+	line-height: 134%;
+	letter-spacing: -.2px;
+	text-transform: none;
+	color: #ffffff;
+}
+
+.news__caption-container
+{
+	padding: 0 8% 3.8% 8%;
+}
+
+.news__caption-container:first-letter
+{
+	text-transform: capitalize;
+}
+
+.news__caption-add
+{
+	position: absolute;
+	right: 4%;
+	bottom: 5%;
+}
+
+
+@media only screen and (max-width: 940px) and (min-width: 651px)
+{
+	.news__social
+	{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.news__primary-container
+	{
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 2%;
+		text-align: center;
+	}
+
+	.news__content
+	{
+		display: inline-block;
+	}
+
+	.news__caption
+	{
+		display: inline-block;
+	}
+
+	.news__caption-text
+	{
+		font-size: 2.5vw;
+	}
+
+	.main-sector__caption-text
+	{
+		font-size: 3vw;
+	}
+}
+
+@media only screen and (max-width: 650px)
+{
+	.news__social
+	{
+		display: inline-block;
+		width: 100%;
+		background: #f5c507;
+	}
+
+	.news__social-img
+	{
+		vertical-align: middle;
+	}
+
+	.news__primary-container
+	{
+		padding: 2% 1.5%;
+	}
+
+	.news__count-container
+	{
+		display: none;
+	}
+
+	.news__content
+	{
+		display: table-cell;
+		width: 50%;
+		padding-left: 1.5%;
+	}
+
+	.news__comment-add
+	{
+		display: none;
+	}
+
+	.news__caption
+	{
+		display: table-cell;
+		width: 50%;
+	}
+
+	.news__caption-text
+	{
+		font: 4vw 'Segoe WP Light';
+		letter-spacing: -.6px;
+	}
+}
+
+
+
+
+
+
+
+
+

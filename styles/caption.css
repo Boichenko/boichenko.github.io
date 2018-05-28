@@ -9,6 +9,18 @@
 	letter-spacing: .6px;
 }
 
+.caption__text-primary
+{
+	color: #f5c506;
+}
+
+.caption__text-secondary
+{
+	margin-bottom: -6px;
+	margin-left: 10px;
+	letter-spacing: .6px;
+}
+
 @media only screen and (max-width: 650px)
 {
 	.caption

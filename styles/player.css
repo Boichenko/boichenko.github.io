@@ -6,7 +6,7 @@
 
 .player:after
 {
-	content: url('../../img/player.png');
+	content: url('../img/player.png');
 }
 
 @media only screen and (max-width: 650px)
@@ -18,6 +18,6 @@
 
 	.player:after
 	{
-		content: url('../../img/player-small.png');
+		content: url('../img/player-small.png');
 	}
 }
