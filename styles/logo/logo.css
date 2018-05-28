@@ -7,7 +7,9 @@
 {
     .logo
     {
-        display: block;  text-align: center;
+        display: block;
+
+        text-align: center;
     }
 }
 
@@ -15,7 +17,10 @@
 {
     .logo
     {
-        padding: 1.8% 2.5% 2% 1.8%;  text-align: center;         vertical-align: middle;
+        padding: 1.8% 2.5% 2% 1.8%;
+
+        text-align: center;
+        vertical-align: middle;
 
         background: linear-gradient(#5d5d5d, #434343);
     }

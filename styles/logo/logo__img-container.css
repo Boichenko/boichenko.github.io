@@ -1,6 +1,9 @@
 .logo__img-container
 {
-    display: inline-block;    display: inline-block;     vertical-align: middle;
+    display: inline-block;
+    display: inline-block;
+
+    vertical-align: middle;
 }
 
 .logo__img-container:after

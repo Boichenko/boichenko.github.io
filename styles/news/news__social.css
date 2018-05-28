@@ -1,13 +1,26 @@
 .news__social
 {
-    position: relative;  display: table-cell;  width: 33%;  height: 231.98px;  text-align: center;  vertical-align: middle;  white-space: normal;  background: #ec9e03;
+    position: relative;
+
+    display: table-cell;
+
+    width: 33%;
+    height: 231.98px;
+
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+
+    background: #ec9e03;
 }
 
 @media only screen and (max-width: 940px) and (min-width: 651px)
 {
     .news__social
     {
-        display: block;  margin: 0 auto;
+        display: block;
+
+        margin: 0 auto;
     }
 }
 
@@ -15,7 +28,9 @@
 {
     .news__social
     {
-        display: inline-block;         width: 100%;
+        display: inline-block;
+
+        width: 100%;
 
         background: #f5c507;
     }

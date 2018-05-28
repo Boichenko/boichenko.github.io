@@ -1,13 +1,21 @@
 .navigation
 {
-    display: table-cell;  width: 44.5%;  margin-left: auto;  vertical-align: bottom;
+    display: table-cell;
+
+    width: 44.5%;
+    margin-left: auto;
+
+    vertical-align: bottom;
 }
 
 @media only screen and (max-width: 1019px) and (min-width: 651px)
 {
     .navigation
     {
-        display: block;  width: auto;         margin: 0;
+        display: block;
+
+        width: auto;
+        margin: 0;
     }
 }
 
@@ -15,6 +23,10 @@
 {
     .navigation
     {
-        width: auto;  vertical-align: middle;  background: #f5c506;
+        width: auto;
+
+        vertical-align: middle;
+
+        background: #f5c506;
     }
 }

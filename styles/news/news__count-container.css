@@ -1,6 +1,8 @@
 .news__count-container
 {
-    position: absolute;  top: 5%;  right: 4%;
+    position: absolute;
+    top: 5%;
+    right: 4%;
 }
 
 @media only screen and (max-width: 650px)

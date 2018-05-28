@@ -1,10 +1,11 @@
 {
+    "remove-empty-rulesets": true,
     "always-semicolon": true,
     "color-case": "upper",
-    "block-indent": "  ",
+    "block-indent": "\t",
     "color-shorthand": false,
     "element-case": "lower",
-    "eof-newline": false,
+    "eof-newline": true,
     "leading-zero": false,
     "quotes": "single",
     "space-before-colon": "",
@@ -19,6 +20,5 @@
     "space-before-closing-brace": "\n",
     "strip-spaces": true,
     "tab-size": true,
-    "unitless-zero": true,
-    "vendor-prefix-align": true
+    "unitless-zero": true
 }

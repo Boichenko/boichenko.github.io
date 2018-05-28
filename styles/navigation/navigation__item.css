@@ -2,13 +2,23 @@
 {
     font: 17px 'Segoe WP';
 
-    display: table-cell;  padding: 9px 15px;  letter-spacing: .15px;     color: #9b7d08;  border-right: 1px solid #dcb105;
+    display: table-cell;
+
+    padding: 9px 15px;
+
+    letter-spacing: .15px;
+
+    color: #9b7d08;
+    border-right: 1px solid #dcb105;
 }
 
 @media only screen and (max-width: 650px)
 {
     .navigation__item
     {
-        font: 19.05px 'Segoe WP';  font-size: 3vw;         padding: 18px 15px;
+        font: 19.05px 'Segoe WP';
+        font-size: 3vw;
+
+        padding: 18px 15px;
     }
 }
