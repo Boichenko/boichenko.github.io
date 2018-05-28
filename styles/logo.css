@@ -14,6 +14,7 @@
 	display: inline-block;
 	padding-bottom: 1.8%;
 	vertical-align: bottom;
+	text-transform: uppercase;
 }
 
 .logo__primary-text
@@ -21,6 +22,7 @@
 	display: inline-block;
 	padding-top: 3%;
 	vertical-align: middle;
+	text-transform: uppercase;
 }
 
 .logo__img-container

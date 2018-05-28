@@ -32,6 +32,7 @@
 	font: 37.05px 'PT Sans Regular';
 	letter-spacing: .29px;
 	color: #ffffff;
+	text-transform: uppercase;
 }
 
 .main-sector__header-container

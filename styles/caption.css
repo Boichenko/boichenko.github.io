@@ -12,6 +12,7 @@
 .caption__text-primary
 {
 	color: #f5c506;
+	text-transform: uppercase;
 }
 
 .caption__text-secondary
@@ -19,6 +20,7 @@
 	margin-bottom: -6px;
 	margin-left: 10px;
 	letter-spacing: .6px;
+	text-transform: uppercase;
 }
 
 @media only screen and (max-width: 650px)
