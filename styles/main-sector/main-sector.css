@@ -19,7 +19,7 @@
 @media only screen and (max-width: 650px)
 {
     .main-sector
-    { background: transparent; 
-        background-image: none;  box-shadow: none;
+    {
+        background: transparent;  background-image: none;  box-shadow: none;
     }
 }

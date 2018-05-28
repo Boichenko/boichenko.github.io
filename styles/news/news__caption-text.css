@@ -1,6 +1,7 @@
 .news__caption-text
-{ font: 29.05px 'Segoe WP Light'; line-height: 134%;  letter-spacing: -.2px; 
-    text-transform: none;  color: #fff; 
+{
+    font: 29.05px 'Segoe WP Light';     line-height: 134%;  letter-spacing: -.2px;
+    text-transform: none;  color: #fff;
 }
 
 @media only screen and (max-width: 1019px) and (min-width: 651px)

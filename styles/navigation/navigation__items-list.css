@@ -24,8 +24,9 @@
 @media only screen and (max-width: 650px)
 {
     .navigation__items-list
-    { padding: 0;  text-align: center; background: none; 
-        box-shadow: none; 
+    {
+        padding: 0;  text-align: center;         background: none;
+        box-shadow: none;
     }
 
     .navigation__items-list li:first-child

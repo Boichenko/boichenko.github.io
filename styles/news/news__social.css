@@ -14,8 +14,9 @@
 @media only screen and (max-width: 650px)
 {
     .news__social
-    { display: inline-block; width: 100%; 
+    {
+        display: inline-block;         width: 100%;
 
-        background: #f5c507; 
+        background: #f5c507;
     }
 }
