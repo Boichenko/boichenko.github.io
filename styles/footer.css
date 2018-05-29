@@ -11,6 +11,11 @@
 	background-repeat: repeat;;
 }
 
+.footer-content-indent
+{
+	padding: 2% 0 5.6% 0;
+}
+
 .footer__logo
 {
 	color: #ffffff;
@@ -36,13 +41,6 @@
 {
 	display: inline-block;
 	vertical-align: middle;
-}
-
-.footer__inner-container
-{
-	max-width: 1020px;
-	margin: 0 auto;
-	padding: 2% 0 5.6% 0;
 }
 
 .footer__caption

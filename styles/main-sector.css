@@ -20,10 +20,7 @@
 	box-shadow: inset 0 3px 3px rgba(0, 0, 0, .4);
 }
 
-.main-sector__inner-container
-{
-	max-width: 1020px;
-	margin: 0 auto;
+.main-sector-indent-bottom {
 	padding-bottom: 9.05%;
 }
 

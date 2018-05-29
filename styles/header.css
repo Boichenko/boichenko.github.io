@@ -5,6 +5,7 @@
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	box-shadow: 100px 0 100px -100px rgba(0, 0, 0, .7) inset, -100px 0 100px -100px rgba(0, 0, 0, .7) inset, 0 0 10px rgba(0, 0, 0, .7) inset;
+	padding: 1.6% 0 3.45% 0;
 }
 
 .header__top-container
@@ -16,13 +17,6 @@
 .header__text-container
 {
 	display: inline-block;
-}
-
-.header__inner-container
-{
-	max-width: 1020px;
-	margin: 0 auto;
-	padding: 1.6% 0 3.45% 0;
 }
 
 .header__bottom-container
