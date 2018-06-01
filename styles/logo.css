@@ -17,6 +17,11 @@
 	text-transform: uppercase;
 }
 
+.logo__text-container
+{
+	display: inline-block;
+}
+
 .logo__primary-text
 {
 	display: inline-block;
