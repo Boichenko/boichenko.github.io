@@ -13,6 +13,11 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.button:focus
+{
+	color: #f5cc24;
+}
+
 .button-plus:before
 {
 	content: '\e900';

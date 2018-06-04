@@ -34,3 +34,18 @@ table
 	border-spacing: 0;
 	border-collapse: collapse;
 }
+
+button
+{
+	border: none;
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+button:focus
+{
+	outline: 0;
+}

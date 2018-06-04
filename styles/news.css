@@ -25,13 +25,6 @@
 	display: inline-block;
 }
 
-.news__img-helper
-{
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-}
-
 .news__count
 {
 	font: 25.05px 'Segoe WP Light';
