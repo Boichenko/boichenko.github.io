@@ -1,14 +1,15 @@
-.navigation
+.navigation_position_bottom
 {
-	display: table-cell;
-	width: 44.5%;
 	margin-left: auto;
-	vertical-align: bottom;
+	align-self: flex-end;
+	width: 44.5%;
+	
 }
 
 .navigation__items-list
 {
-	display: table;
+	display: flex;
+	justify-content: space-between;
 	background: #f5c506;
 	box-shadow: -4px -4px rgba(245, 197, 6, .3), -8px -8px rgba(245, 167, 6, .2);
 }
@@ -26,7 +27,6 @@
 .navigation__item
 {
 	font: 17px 'Segoe WP';
-	display: table-cell;
 	padding: 9px 15px;
 	letter-spacing: .15px;
 	color: #9b7d08;

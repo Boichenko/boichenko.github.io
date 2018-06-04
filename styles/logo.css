@@ -1,6 +1,5 @@
 .logo
 {
-	display: table-cell;
 	color: #ffffff;
 }
 
@@ -26,6 +25,11 @@
 	padding-bottom: 1.8%;
 	vertical-align: bottom;
 	text-transform: uppercase;
+}
+
+.logo__secondary-text_hidden
+{
+	display: none;
 }
 
 .logo__text-container
