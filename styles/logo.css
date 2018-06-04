@@ -1,6 +1,17 @@
 .logo
 {
 	display: table-cell;
+	color: #ffffff;
+}
+
+.logo_size_l
+{
+	font: 41.05px 'Lucida Sans Italic';
+}
+
+.logo_size_s
+{
+	font: 29.05px 'Lucida Sans Italic';
 }
 
 .logo__signature
@@ -33,18 +44,21 @@
 .logo__img-container
 {
 	display: inline-block;
-	display: inline-block;
 	vertical-align: middle;
 }
 
-.logo__img-container:after
+.logo__img-container_l:after
 {
-	content: url('../img/logo.png');
+	content: url('../img/logo_83x83.png');
+}
+
+.logo__img-container_s:after
+{
+	content: url('../img/logo_54x54.png');
 }
 
 .logo__caption
 {
-	font: 41.05px 'Lucida Sans Italic';
 	vertical-align: middle;
 	letter-spacing: .2px;
 }
@@ -68,6 +82,16 @@
 		background: linear-gradient(#5d5d5d, #434343);
 	}
 
+	.logo_size_l
+	{
+		font: 3vw 'Lucida Sans Italic';
+	}
+
+	.logo_size_s
+	{
+		font: 16.68px 'Lucida Sans Italic';
+	}
+
 	.logo__primary-text
 	{
 		padding-left: 1.8%;
@@ -79,14 +103,18 @@
 		display: none;
 	}
 
-	.logo__img-container:after
+	.logo__img-container_l:after
 	{
-		content: url('../img/logo-small.png');
+		content: url('../img/logo_39x39.png');
+	}
+
+	.logo__img-container_s:after
+	{
+		content: url('../img/logo_31x31.png');
 	}
 
 	.logo__caption
 	{
-		font: 3vw 'Lucida Sans Italic';
 		letter-spacing: .5px;
 	}
 }

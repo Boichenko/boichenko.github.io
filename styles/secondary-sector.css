@@ -4,3 +4,12 @@
 	background-image: url('../img/footer.png');
 	background-repeat: repeat;
 }
+
+.secondary-sector__caption
+{
+	font: 43.05px 'PT Sans Regular';
+	text-align: center;
+	letter-spacing: .3px;
+	color: #f5c506;
+	text-transform: uppercase;
+}
