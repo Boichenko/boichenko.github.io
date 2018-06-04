@@ -1,12 +1,17 @@
 .player
 {
-	display: inline-block;
-	padding: .5% 1%;
+	content: url('../img/player.png');
+	float: left;
+	padding: .3% 1% .5% 1%;
 }
 
 .player:after
 {
-	content: url('../img/player.png');
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
 
 @media only screen and (max-width: 650px)
