@@ -11,10 +11,15 @@
 	background-size: 6px 6px;
 }
 
+.advertising__items-list
+{
+	display: flex;
+	width: 100%;
+}
+
 .advertising__item
 {
 	font: 27.05px 'Segoe UI';
-	display: table-cell;
 	width: 33.33%;
 	padding: 3.2% 0;
 	text-align: center;
@@ -32,12 +37,6 @@
 {
 	max-width: 1020px;
 	margin: 0 auto;
-}
-
-.advertising__items-list
-{
-	display: table;
-	width: 100%;
 }
 
 .advertising__items-list li:first-child

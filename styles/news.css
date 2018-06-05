@@ -1,28 +1,51 @@
-.news
+.news__container
 {
-	display: table;
+	display: flex;
 }
 
-.news__social
+.news__complex-item
+{
+	display: flex;
+}
+
+.news__caption-container
+{
+	padding: 3.8% 8%;
+}
+
+.news__caption
 {
 	position: relative;
-	display: table-cell;
-	width: 33%;
-	height: 231.98px;
-	text-align: center;
-	vertical-align: middle;
-	white-space: normal;
+	width: 340px;
 	background: #ec9e03;
 }
 
-.news__social-img
+.news__caption-text
 {
-	vertical-align: middle;
+	font: 29.05px 'Segoe WP Light';
+	line-height: 134%;
+	letter-spacing: -.2px;
+	text-transform: none;
+	color: #ffffff;
 }
 
-.news__primary-container
+.news__caption-container:first-letter
 {
-	display: inline-block;
+	text-transform: capitalize;
+}
+
+.news__item-add
+{
+	position: absolute;
+	right: 4%;
+	bottom: 5%;
+}
+.news__simple-item
+{
+	position: relative;
+	width: 330px;
+	text-align: center;
+	background: #ec9e03;
 }
 
 .news__count
@@ -37,54 +60,6 @@
 	top: 5%;
 	right: 4%;
 }
-
-.news__content
-{
-	position: relative;
-	display: table-cell;
-	width: 33%;
-	height: 231.98px;
-	vertical-align: middle;
-	white-space: normal;
-}
-
-.news__caption
-{
-	position: relative;
-	display: table-cell;
-	width: 33%;
-	height: 231.98px;
-	vertical-align: middle;
-	white-space: normal;
-	background: #ec9e03;
-}
-
-.news__caption-text
-{
-	font: 29.05px 'Segoe WP Light';
-	line-height: 134%;
-	letter-spacing: -.2px;
-	text-transform: none;
-	color: #ffffff;
-}
-
-.news__caption-container
-{
-	padding: 0 8% 3.8% 8%;
-}
-
-.news__caption-container:first-letter
-{
-	text-transform: capitalize;
-}
-
-.news__item-add
-{
-	position: absolute;
-	right: 4%;
-	bottom: 5%;
-}
-
 
 @media only screen and (max-width: 940px) and (min-width: 651px)
 {
@@ -171,12 +146,3 @@
 		letter-spacing: -.6px;
 	}
 }
-
-
-
-
-
-
-
-
-

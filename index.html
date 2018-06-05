@@ -11,7 +11,7 @@
 <body>
     <div class="main-page">
         <header class="header">
-            <div class="inner-container">
+            <div class="header__container inner-container">
                 <div class="header__top-container">
                     <div class="logo logo_size_l">
                         <div class="logo__img-container logo__img-container_l">
@@ -44,9 +44,9 @@
                 </div>
                 <div class="header__bottom-container">
                     <img class="player" />
-                    <div class="caption">
-                        <p class="caption__text-primary">the cool</p>
-                        <p class="caption__text-secondary">the minimal</p>
+                    <div class="header__caption">
+                        <p class="header__caption-text-primary">the cool</p>
+                        <p class="header__caption-text-secondary">the minimal</p>
                     </div>
                 </div>
             </div>
@@ -78,29 +78,31 @@
                         <h2 class="main-sector__header">lorem ipsum dolor sit amet</h2>
                     </div>
                     <div class="news">
-                        <div class="news__primary-container">
-                            <div class="news__caption">
-                                <div class="news__caption-container">
-                                    <article class="news__caption-text">
-                                        lorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut
-                                    </article>
-                                    <div class="news__item-add">
-                                        <button class="button button-plus"></button>
+                        <div class="news__container">
+                            <article class="news__complex-item">
+                                <div class="news__caption">
+                                    <div class="news__caption-container">
+                                        <article class="news__caption-text">
+                                            lorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut
+                                        </article>
+                                        <div class="news__item-add">
+                                            <button class="button button-plus"></button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="news__content">
-                                <img src="./img/news.png">
-                            </div>
-                        </div>
-                        <div class="news__social">
-                            <div class="news__count-container">
-                                <span class="news__count">22</span>
-                            </div>
-                            <span class="social social-twitter"></span>
-                            <div class="news__item-add">
-                                <button class="button button-plus"></button>
-                            </div>
+                                <div class="news__content">
+                                    <img src="./img/news.png">
+                                </div>
+                            </article>
+                            <article class="news__simple-item">
+                                <div class="news__count-container">
+                                    <span class="news__count">22</span>
+                                </div>
+                                <span class="social social-twitter"></span>
+                                <div class="news__item-add">
+                                    <button class="button button-plus"></button>
+                                </div>
+                            </article>
                         </div>
                     </div>
                 </div>
