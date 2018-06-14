@@ -3,7 +3,6 @@
 	margin-left: auto;
 	align-self: flex-end;
 	width: 44.5%;
-	
 }
 
 .navigation__items-list
@@ -42,7 +41,7 @@
 
 .navigation__item-text
 {
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 @media only screen and (max-width: 1019px) and (min-width: 651px)
