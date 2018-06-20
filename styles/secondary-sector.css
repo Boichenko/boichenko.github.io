@@ -1,6 +1,5 @@
 .secondary-sector
 {
-	padding: 1.05% 0 2.9% 0;
 	background-image: url('../img/footer.png');
 	background-repeat: repeat;
 }
@@ -12,4 +11,29 @@
 	letter-spacing: .3px;
 	color: #f5c506;
 	text-transform: uppercase;
+}
+
+.secondary-sector__devices
+{
+	display: inline-block;
+}
+
+.secondary-sector__possibilities
+{
+	display: inline-block;
+	max-width: 456px;
+	padding-left: 9.5%;
+}
+
+.secondary-sector__container
+{
+	padding: 40px 0 103px 0;
+}
+
+@media only screen and (max-width: 650px)
+{
+	.secondary-sector__possibilities
+	{
+		display: none;
+	}
 }

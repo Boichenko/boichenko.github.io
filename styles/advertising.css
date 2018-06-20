@@ -14,14 +14,13 @@
 .advertising__items-list
 {
 	display: flex;
-	width: 100%;
 }
 
 .advertising__item
 {
 	font: 27.05px 'Segoe UI';
 	width: 33.33%;
-	padding: 3.2% 0;
+	padding: 32px 0;
 	text-align: center;
 	color: #3b3b3b;
 	border-right: 1px solid #d4d4d4;
@@ -46,7 +45,6 @@
 
 .advertising__item-text
 {
-	display: block;
 	padding-top: 5%;
 }
 

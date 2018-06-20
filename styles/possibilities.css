@@ -1,9 +1,6 @@
 .possibilities
 {
-	display: inline-block;
 	box-sizing: border-box;
-	max-width: 456px;
-	padding-left: 9.5%;
 }
 
 .possibilities__item
@@ -21,13 +18,4 @@
 	list-style-image: url('../img/list-marker.png');
 	text-align: left;
 	text-transform: none;
-}
-
-
-@media only screen and (max-width: 650px)
-{
-	.possibilities
-	{
-		display: none;
-	}
 }

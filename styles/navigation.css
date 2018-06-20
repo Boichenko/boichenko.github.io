@@ -2,7 +2,6 @@
 {
 	margin-left: auto;
 	align-self: flex-end;
-	width: 44.5%;
 }
 
 .navigation__items-list
@@ -26,17 +25,10 @@
 .navigation__item
 {
 	font: 17px 'Segoe WP';
-	padding: 9px 15px;
+    padding: 9px 25px 9px 15px;
 	letter-spacing: .15px;
 	color: #9b7d08;
 	border-right: 1px solid #dcb105;
-}
-
-.navigation__item-img
-{
-	margin-top: -5px;
-	margin-right: 4px;
-	vertical-align: middle;
 }
 
 .navigation__item-text

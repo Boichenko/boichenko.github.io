@@ -22,7 +22,7 @@
 .logo__secondary-text
 {
 	display: inline-block;
-	padding-bottom: 1.8%;
+	margin-bottom: 1.8%;
 	vertical-align: bottom;
 	text-transform: uppercase;
 }
@@ -67,25 +67,8 @@
 	letter-spacing: .2px;
 }
 
-@media only screen and (max-width: 1019px) and (min-width: 651px)
-{
-	.logo
-	{
-		display: block;
-		text-align: center;
-	}
-}
-
 @media only screen and (max-width: 650px)
 {
-	.logo
-	{
-		padding: 1.8% 2.5% 2% 1.8%;
-		text-align: center;
-		vertical-align: middle;
-		background: linear-gradient(#5d5d5d, #434343);
-	}
-
 	.logo_size_l
 	{
 		font: 3vw 'Lucida Sans Italic';
@@ -98,7 +81,7 @@
 
 	.logo__primary-text
 	{
-		padding-left: 1.8%;
+		margin-left: 1.8%;
 		vertical-align: middle;
 	}
 

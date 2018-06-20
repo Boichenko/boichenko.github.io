@@ -1,8 +1,6 @@
 .player
 {
 	content: url('../img/player.png');
-	float: left;
-	padding: .3% 1% .5% 1%;
 }
 
 .player:after
@@ -16,11 +14,6 @@
 
 @media only screen and (max-width: 650px)
 {
-	.player
-	{
-		padding: 0;
-	}
-
 	.player:after
 	{
 		content: url('../img/player-small.png');
