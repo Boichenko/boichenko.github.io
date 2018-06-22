@@ -18,7 +18,7 @@
 .news__caption
 {
 	position: relative;
-	width: 340px;
+	max-width: 340px;
 	background: #ec9e03;
 }
 
@@ -147,5 +147,10 @@
 	{
 		font: 4vw 'Segoe WP Light';
 		letter-spacing: -.6px;
+	}
+
+	.news__container
+	{
+		padding: 0;
 	}
 }

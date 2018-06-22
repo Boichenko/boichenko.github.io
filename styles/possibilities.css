@@ -3,19 +3,19 @@
 	box-sizing: border-box;
 }
 
-.possibilities__item
-{
-	font: 22px 'Open Sans Regular';
-	line-height: 1.2;
-	padding-top: 5.4%;
-	padding-left: 4%;
-	color: #a3a3a1;
-}
-
 .possibilities__items-list
 {
-	list-style-position: outside;
-	list-style-image: url('../img/list-marker.png');
-	text-align: left;
-	text-transform: none;
+	list-style-type: disc;
+}
+
+.possibilities__item
+{
+	font-size: 40px;
+	color: #f5cc24;
+}
+
+.possibilities__item-text 
+{
+	color: #a3a3a1;
+	font: 22px 'Open Sans Regular';
 }

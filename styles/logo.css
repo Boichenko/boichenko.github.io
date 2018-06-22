@@ -16,13 +16,14 @@
 .logo__signature
 {
 	font: 13px 'LaoUI';
-	letter-spacing: .2px;
+	letter-spacing: .14px;
 }
 
 .logo__secondary-text
 {
 	display: inline-block;
-	margin-bottom: 1.8%;
+	margin-bottom: 6px;
+	margin-left: 4px;
 	vertical-align: bottom;
 	text-transform: uppercase;
 }
@@ -35,12 +36,13 @@
 .logo__text-container
 {
 	display: inline-block;
+	margin-left: 3px;
 }
 
 .logo__primary-text
 {
 	display: inline-block;
-	padding-top: 3%;
+	padding-top: 10px;
 	vertical-align: middle;
 	text-transform: uppercase;
 }
@@ -64,7 +66,7 @@
 .logo__caption
 {
 	vertical-align: middle;
-	letter-spacing: .2px;
+	letter-spacing: .4px;
 }
 
 @media only screen and (max-width: 650px)

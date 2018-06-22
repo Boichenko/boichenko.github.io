@@ -1,13 +1,11 @@
 .navigation_position_bottom
 {
-	margin-left: auto;
 	align-self: flex-end;
 }
 
 .navigation__items-list
 {
 	display: flex;
-	justify-content: space-between;
 	background: #f5c506;
 	box-shadow: -4px -4px rgba(245, 197, 6, .3), -8px -8px rgba(245, 167, 6, .2);
 }
@@ -38,22 +36,10 @@
 
 @media only screen and (max-width: 1019px) and (min-width: 651px)
 {
-	.navigation
-	{
-		display: block;
-		width: auto;
-		margin: 0;
-	}
-
 	.navigation__items-list
 	{
-		margin: 0 auto;
-	}
-
-	.navigation__inner-container
-	{
-		margin: 0 auto;
-		padding-top: 5%;
+		margin: 20px auto;
+		width: 460px;
 	}
 }
 
@@ -61,8 +47,6 @@
 {
 	.navigation
 	{
-		width: auto;
-		vertical-align: middle;
 		background: #f5c506;
 	}
 
@@ -76,13 +60,20 @@
 
 	.navigation__items-list li:first-child
 	{
-		padding-left: 9px;
+		padding-left: 0;
 	}
 
 	.navigation__item
 	{
 		font: 19.05px 'Segoe WP';
 		font-size: 3vw;
-		padding: 18px 15px;
+		padding: 18px 0;
+		flex-grow: 1;
+	}
+
+	.navigation_position_bottom
+	{
+		flex-grow: 1;
+		align-self: auto;
 	}
 }

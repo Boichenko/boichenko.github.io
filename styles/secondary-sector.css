@@ -37,3 +37,22 @@
 		display: none;
 	}
 }
+
+@media only screen and (max-width: 1019px) and (min-width: 651px)
+{
+	.secondary-sector__content
+	{
+		display: flex;
+		justify-content: center;
+	}
+	
+	.secondary-sector__devices
+	{
+		display: block;
+	}
+
+	.secondary-sector__possibilities
+	{
+		display: block;
+	}
+}
