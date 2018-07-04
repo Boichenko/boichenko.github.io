@@ -103,11 +103,11 @@
 
 @media only screen and (max-width: 650px)
 {
-	.news__social
+	.news__simple-item
 	{
-		display: inline-block;
 		width: 100%;
 		background: #f5c507;
+		padding: 36px 0;
 	}
 
 	.news__social-img
@@ -115,9 +115,9 @@
 		vertical-align: middle;
 	}
 
-	.news__primary-container
+	.news__media-item
 	{
-		padding: 2% 1.5%;
+		margin: 2% 1.5%;
 	}
 
 	.news__count-container
@@ -127,8 +127,6 @@
 
 	.news__content
 	{
-		display: table-cell;
-		width: 50%;
 		padding-left: 1.5%;
 	}
 
@@ -139,7 +137,6 @@
 
 	.news__caption
 	{
-		display: table-cell;
 		width: 50%;
 	}
 
@@ -152,5 +149,6 @@
 	.news__container
 	{
 		padding: 0;
+		display: block;
 	}
 }
