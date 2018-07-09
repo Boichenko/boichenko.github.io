@@ -22,3 +22,16 @@
 {
 	content: '\e900';
 }
+
+@media only screen and (max-width: 320px)
+{
+	.button-modile-hidden
+	{
+		display: none;
+	}
+
+	.button
+	{
+		font-size: 1%;
+	}
+}

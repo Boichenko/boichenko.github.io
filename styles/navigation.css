@@ -34,7 +34,7 @@
 	text-transform: uppercase;
 }
 
-@media only screen and (max-width: 1019px) and (min-width: 651px)
+@media only screen and (max-width: 1019px) and (min-width: 321px)
 {
 	.navigation__items-list
 	{
@@ -43,7 +43,7 @@
 	}
 }
 
-@media only screen and (max-width: 650px)
+@media only screen and (max-width: 320px)
 {
 	.navigation
 	{
@@ -65,9 +65,9 @@
 
 	.navigation__item
 	{
-		font: 19.05px 'Segoe WP';
+		font: 9.55px 'Segoe WP';
 		font-size: 3vw;
-		padding: 18px 0;
+		padding: 9px 0;
 		flex-grow: 1;
 	}
 

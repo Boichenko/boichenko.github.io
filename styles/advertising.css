@@ -48,7 +48,7 @@
 	padding-top: 5%;
 }
 
-@media only screen and (max-width: 650px)
+@media only screen and (max-width: 320px)
 {
 	.advertising__items-list li:first-child
 	{
@@ -57,9 +57,9 @@
 
 	.advertising__item
 	{
-		font: 23.05px 'Segoe UI';
+		font: 11.55px 'Segoe UI';
 		border-right: none;
-		padding: 24px 0;
+		padding: 12px 0;
 	}
 
 	.advertising__item-img

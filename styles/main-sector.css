@@ -32,7 +32,7 @@
 	padding: 31px 0;
 }
 
-@media only screen and (max-width: 650px)
+@media only screen and (max-width: 320px)
 {
 	.main-sector
 	{

@@ -52,7 +52,7 @@
 	text-transform: uppercase;
 }
 
-@media only screen and (max-width: 1019px) and (min-width: 651px)
+@media only screen and (max-width: 1019px) and (min-width: 321px)
 {
 	.header__top-container
 	{
@@ -77,10 +77,11 @@
 	.header__logo
 	{
 		text-align: center;
+		display: block;
 	}
 }
 
-@media only screen and (max-width: 650px)
+@media only screen and (max-width: 320px)
 {
 	.header
 	{
@@ -90,7 +91,7 @@
 
 	.header__logo
 	{
-		padding: 10px 18px;
+		padding: 5px 8px;
 		background: linear-gradient(#5d5d5d, #434343);
 	}
 
@@ -118,18 +119,5 @@
 	.header__container
 	{
 		padding: 0;
-	}
-}
-
-@media only screen and (max-width: 1019px) and (min-width: 651px)
-{
-	.header__logo
-	{
-		display: block;
-	}
-
-	.header__bottom-container
-	{
-		text-align: center;
 	}
 }
