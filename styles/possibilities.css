@@ -1,0 +1,21 @@
+.possibilities
+{
+	box-sizing: border-box;
+}
+
+.possibilities__items-list
+{
+	list-style-type: disc;
+}
+
+.possibilities__item
+{
+	font-size: 40px;
+	color: #f5cc24;
+}
+
+.possibilities__item-text 
+{
+	color: #a3a3a1;
+	font: 22px 'Open Sans Regular';
+}

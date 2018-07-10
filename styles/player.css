@@ -1,0 +1,21 @@
+.player
+{
+	content: url('../img/player.png');
+}
+
+.player:after
+{
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+@media only screen and (max-width: 320px)
+{
+	.player
+	{
+		content: url('../img/player-small.png');
+	}
+}

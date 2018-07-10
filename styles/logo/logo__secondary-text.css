@@ -1,13 +1,0 @@
-.logo__secondary-text
-{ display: inline-block; padding-bottom: 1.8%; 
-
-    vertical-align: bottom; 
-}
-
-@media only screen and (max-width: 650px)
-{
-    .logo__secondary-text
-    {
-        display: none;
-    }
-}

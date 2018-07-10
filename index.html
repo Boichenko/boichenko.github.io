@@ -11,45 +11,40 @@
 <body>
     <div class="main-page">
         <header class="header">
-            <div class="header__inner-container">
+            <div class="header__container inner-container">
                 <div class="header__top-container">
-                    <div class="logo">
-                        <div class="logo__img-container">
-                        </div>
-                        <div class="header__text-container">
+                    <div class="logo logo_size_l header__logo">
+                        <div class="logo__img-container logo__img-container_l">
+                        </div><div class="logo__text-container">
                             <div class="logo__primary-text">
                                 <h1 class="logo__caption">theyalow</h1>
-                            </div>
-                            <div class="logo__secondary-text">
+                            </div><div class="logo__secondary-text">
                                 <span class="logo__signature">craft by css author.com</span>
                             </div>
                         </div>
                     </div>
-                    <div class="navigation">
-                        <nav class=navigation__inner-container>
-                            <ul class="navigation__items-list">
-                                <li class="navigation__item">
-                                    <i class="menu menu-user"></i>
-                                    <span class="navigation__item-text">about us</span>
-                                </li>
-                                <li class="navigation__item">
-                                    <i class="menu menu-wrench"></i>
-                                    <span class="navigation__item-text">services</span>
-                                </li>
-                                <li class="navigation__item">
-                                    <i class="menu menu-envelope"></i>
-                                    <span class="navigation__item-text">contact</span>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                    <nav class="navigation navigation_position_bottom">
+                        <ul class="navigation__items-list">
+                            <li class="navigation__item">
+                                <span class="menu-icon menu-user"></span>
+                                <span class="navigation__item-text">about us</span>
+                            </li>
+                            <li class="navigation__item">
+                                <span class="menu-icon menu-wrench"></span>
+                                <span class="navigation__item-text">services</span>
+                            </li>
+                            <li class="navigation__item">
+                                <span class="menu-icon menu-envelope"></span>
+                                <span class="navigation__item-text">contact</span>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="header__bottom-container">
-                    <div class="player">
-                    </div>
-                    <div class="caption">
-                        <h1 class="caption__text-primary">the cool</h1>
-                        <h1 class="caption__text-secondary">the minimal</h1>
+                    <img class="player header__player" />
+                    <div class="header__caption">
+                        <p class="header__caption-text-primary">the cool</p>
+                        <p class="header__caption-text-secondary">the minimal</p>
                     </div>
                 </div>
             </div>
@@ -60,81 +55,88 @@
                 <div class="advertising__inner-container">
                     <ul class="advertising__items-list">
                         <li class="advertising__item">
-                            <i class="icon icon-cloud-download"></i>
-                            <span class="advertising__item-text">better design</span>
+                            <span class="icon icon-cloud-download"></span>
+                            <p class="advertising__item-text">better design</p>
                         </li>
                         <li class="advertising__item">
-                            <i class="icon icon-leaf"></i>
-                            <span class="advertising__item-text">customize</span>
+                            <span class="icon icon-leaf"></span>
+                            <p class="advertising__item-text">customize</p>
                         </li>
                         <li class="advertising__item">
-                            <i class="icon icon-send"></i>
-                            <span class="advertising__item-text">it's free</span>
+                            <span class="icon icon-send"></span>
+                            <p class="advertising__item-text">it's free</p>
                         </li>
                     </ul>
                 </div>
             </div>
+
             <section class="main-sector">
-                <div class="main-sector__inner-container">
-                    <div class="main-sector__header-container">
+                <div class="main-sector-indent-bottom inner-container">
+                    <div class="main-sector__caption-container">
                         <h2 class="main-sector__header">lorem ipsum dolor sit amet</h2>
                     </div>
                     <div class="news">
-                        <div class="news__primary-container">
-                            <div class="news__caption">
-                                <div class="news__caption-container">
-                                    <article class="news__caption-text">
-                                        lorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut
-                                    </article>
-                                    <div class="news__caption-add">
-                                        <i class="button button-plus"></i>
+                        <div class="news__container">
+                            <article class="news__media-item">
+                                <div class="news__caption">
+                                    <div class="news__caption-container">
+                                        <div class="news__caption-text">
+                                            lorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut
+                                        </div>
+                                        <div class="news__item-add">
+                                            <button class="button button-plus"></button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="news__content">
-                                <img src="./img/news.png">
-                            </div>
-                        </div>
-                        <div class="news__social">
-                            <div class="news__count-container">
-                                <span class="news__count">22</span>
-                            </div>
-                            <span class="news__img-helper"></span>
-                            <i class="social social-twitter"></i>
-                            <div class="news__comment-add">
-                                <i class="button button-plus"></i>
-                            </div>
+                                <div class="news__content">
+                                    <img class="news__content-media">
+                                </div>
+                            </article>
+                            <article class="news__simple-item">
+                                <div class="news__count-container">
+                                    <span class="news__count">22</span>
+                                </div>
+                                <span class="social social-twitter"></span>
+                                <div class="news__item-add">
+                                    <button class="button button-plus button-modile-hidden"></button>
+                                </div>
+                            </article>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section class="secondary-sector">
+                <div class="secondary-sector__container inner-container">
+                    <h2 class="secondary-sector__caption">lorem ipsum dolor sit amet</h2>
+                    <article class="secondary-sector__content">
+                        <div class="secondary-sector__devices">
+                        </div>
+                        <div class="possibilities secondary-sector__possibilities">
+                            <ul class="possibilities__items-list">
+                                <li class="possibilities__item"><span class="possibilities__item-text">Sed ut perspiciatis unde omnis</span></li>
+                                <li class="possibilities__item"><span class="possibilities__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing</span></li>
+                                <li class="possibilities__item"><span class="possibilities__item-text">Sed ut perspiciatis unde omnis</span></li>
+                                <li class="possibilities__item"><span class="possibilities__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing</span></li>
+                            </ul>
+                        </div>
+                    </article>
                 </div>
             </section>
         </main>
 
         <footer class="footer">
-            <div class="footer__inner-container">
-                <div class="footer__caption">
-                    <div class="footer__caption-text">lorem ipsum dolor sit amet</div>
-                </div>
-                <div class="footer__content">
-                    <div class="devices">
-                        <img src="img/devices.png" />
+            <div class="footer__container">
+                <div class="logo logo_size_s">
+                    <div class="logo__img-container logo__img-container_s">
                     </div>
-                    <div class="possibilities">
-                        <ul class="possibilities__items-list">
-                            <li class="possibilities__item">Sed ut perspiciatis unde omnis</li>
-                            <li class="possibilities__item">Lorem ipsum dolor sit amet, consectetur adipisicing</li>
-                            <li class="possibilities__item">Sed ut perspiciatis unde omnis</li>
-                            <li class="possibilities__item">Lorem ipsum dolor sit amet, consectetur adipisicing</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__logo">
-                <div class="footer__logo-container">
-                    <div class="footer__logo-img">
-                    </div>
-                    <div class="footer__logo-caption">
-                        <h1 class="footer__caption">theyalow</h1>
+                    <div class="logo__text-container">
+                        <div class="logo__primary-text  footer-logo-text">
+                            <h1 class="logo__caption">theyalow</h1>
+                        </div>
+                        <div class="logo__secondary-text logo__secondary-text_hidden">
+                            <span class="logo__signature">craft by css author.com</span>
+                        </div>
                     </div>
                 </div>
             </div>

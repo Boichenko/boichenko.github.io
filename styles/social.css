@@ -1,0 +1,28 @@
+.social
+{
+	font-family: 'social';
+	font-size: 1000%;
+	color: #c18000;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.social-twitter 
+{
+	margin: auto;
+}
+
+.social-twitter:before
+{
+	content: '\ea96';
+}
+
+@media only screen and (max-width: 320px)
+{
+	.social
+	{
+		font-size: 500%;
+	}
+}
+
+

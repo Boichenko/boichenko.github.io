@@ -1,0 +1,78 @@
+.advertising
+{
+	background-image: linear-gradient(
+	45deg,
+	#fafafa 30%,
+	#f4f4f4 30%,
+	#f4f4f4 40%,
+	#fafafa 40%,
+	#fafafa 80%,
+	#f4f4f4 82%);
+	background-size: 6px 6px;
+}
+
+.advertising__items-list
+{
+	display: flex;
+}
+
+.advertising__item
+{
+	font: 27.05px 'Segoe UI';
+	width: 33.33%;
+	padding: 32px 0;
+	text-align: center;
+	color: #3b3b3b;
+	border-right: 1px solid #d4d4d4;
+	text-transform: uppercase;
+}
+
+.advertising__item-container
+{
+	padding: 0 9.25%;
+}
+
+.advertising__inner-container
+{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.advertising__items-list li:first-child
+{
+	border-left: 1px solid #d4d4d4;
+}
+
+.advertising__item-text
+{
+	padding-top: 5%;
+}
+
+@media only screen and (max-width: 320px)
+{
+	.advertising__items-list li:first-child
+	{
+		border-left: none;
+	}
+
+	.advertising__item
+	{
+		font: 11.55px 'Segoe UI';
+		border-right: none;
+		padding: 12px 0;
+	}
+
+	.advertising__item-img
+	{
+		height: 82%;
+	}
+
+	.advertising__inner-container
+	{
+		padding: 0;
+	}
+}
+
+
+
+

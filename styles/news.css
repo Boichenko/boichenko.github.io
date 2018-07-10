@@ -1,0 +1,164 @@
+.news__container
+{
+	display: flex;
+	padding-bottom: 165px;
+}
+
+.news__media-item
+{
+	display: flex;
+	margin: 0 35px 0 0;
+}
+
+.news__caption-container
+{
+	padding: 3.8% 8%;
+}
+
+.news__caption
+{
+	position: relative;
+	max-width: 340px;
+	background: #ec9e03;
+}
+
+.news__caption-text
+{
+	font: 29.05px 'Segoe WP Light';
+	line-height: 134%;
+	letter-spacing: -.2px;
+	text-transform: none;
+	color: #ffffff;
+}
+
+.news__caption-container:first-letter
+{
+	text-transform: capitalize;
+}
+
+.news__item-add
+{
+	position: absolute;
+	right: 6px;
+	bottom: 10px;
+}
+.news__simple-item
+{
+	position: relative;
+	width: 330px;
+	text-align: center;
+	background: #ec9e03;
+	display: flex;
+}
+
+.news__count
+{
+	font: 25.05px 'Segoe WP Light';
+	color: #ffffff;
+}
+
+.news__count-container
+{
+	position: absolute;
+	top: 10px;
+	right: 19px;
+}
+
+.news__content
+{
+	content: url('../img/news.png');
+}
+
+@media only screen and (max-width: 940px) and (min-width: 321px)
+{
+	.news__social
+	{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.news__primary-container
+	{
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 2%;
+		text-align: center;
+	}
+
+	.news__content
+	{
+		display: inline-block;
+	}
+
+	.news__caption
+	{
+		display: inline-block;
+	}
+
+	.news__caption-text
+	{
+		font-size: 2.5vw;
+	}
+
+	.main-sector__caption-text
+	{
+		font-size: 3vw;
+	}
+}
+
+@media only screen and (max-width: 320px)
+{
+	.news__simple-item
+	{
+		width: 100%;
+		background: #f5c507;
+		padding: 18px 0;
+	}
+
+	.news__social-img
+	{
+		vertical-align: middle;
+	}
+
+	.news__media-item
+	{
+		margin: 2% 1.5%;
+	}
+
+	.news__count-container
+	{
+		display: none;
+	}
+
+	.news__content
+	{
+		padding-left: 1.5%;
+	}
+
+	.news__comment-add
+	{
+		display: none;
+	}
+
+	.news__caption
+	{
+		width: 50%;
+	}
+
+	.news__caption-text
+	{
+		font: 4vw 'Segoe WP Light';
+		letter-spacing: -.6px;
+	}
+
+	.news__container
+	{
+		padding: 0;
+		display: block;
+	}
+
+	.news__content:after
+	{
+		content: url('../img/news-small.png');
+	}
+}

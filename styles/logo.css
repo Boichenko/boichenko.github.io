@@ -1,0 +1,110 @@
+.logo
+{
+	color: #ffffff;
+}
+
+.logo_size_l
+{
+	font: 41.05px 'Lucida Sans Italic';
+}
+
+.logo_size_s
+{
+	font: 29.05px 'Lucida Sans Italic';
+}
+
+.logo__signature
+{
+	font: 13px 'LaoUI';
+	letter-spacing: .14px;
+}
+
+.logo__secondary-text
+{
+	display: inline-block;
+	margin-bottom: 6px;
+	margin-left: 4px;
+	vertical-align: bottom;
+	text-transform: uppercase;
+}
+
+.logo__secondary-text_hidden
+{
+	display: none;
+}
+
+.logo__text-container
+{
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.logo__primary-text
+{
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+
+.logo__img-container
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo__img-container_l:after
+{
+	content: url('../img/logo_83x83.png');
+}
+
+.logo__img-container_s:after
+{
+	content: url('../img/logo_54x54.png');
+}
+
+.logo__caption
+{
+	vertical-align: middle;
+	letter-spacing: .4px;
+}
+
+@media only screen and (max-width: 320px)
+{
+	.logo_size_l
+	{
+		font: 3vw 'Lucida Sans Italic';
+	}
+
+	.logo_size_s
+	{
+		font: 13.34px 'Lucida Sans Italic';
+	}
+
+	.logo__primary-text
+	{
+		padding-top: 5px;
+		margin-left: 1.8%;
+		vertical-align: middle;
+	}
+
+	.logo__secondary-text
+	{
+		display: none;
+	}
+
+	.logo__img-container_l:after
+	{
+		content: url('../img/logo_19x19.png');
+	}
+
+	.logo__img-container_s:after
+	{
+		content: url('../img/logo_16x16.png');
+	}
+
+	.logo__caption
+	{
+		letter-spacing: .5px;
+	}
+}

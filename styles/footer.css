@@ -1,0 +1,26 @@
+.footer
+{
+	text-align: center;
+	background-color: #4c4c4c;
+	box-shadow: 0 0 5px 3px rgba(0,0,0, .75);
+}
+
+.footer__container
+{
+	padding: 6px 0;
+}
+
+.footer__caption
+{
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 320px)
+{
+	.footer-logo-text
+	{
+		font-size: 8.34px;
+		padding-top: 0;
+		margin-left: 0;
+	}
+} 
