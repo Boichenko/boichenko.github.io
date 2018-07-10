@@ -39,8 +39,8 @@
 {
 	.secondary-sector__content
 	{
-		display: flex;
-		justify-content: center;
+		margin: 0 auto;
+		width: fit-content;
 	}
 
 	.secondary-sector__devices
@@ -51,6 +51,7 @@
 	.secondary-sector__possibilities
 	{
 		display: block;
+		max-width: none;
 	}
 }
 

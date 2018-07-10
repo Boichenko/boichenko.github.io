@@ -64,6 +64,11 @@
 	right: 19px;
 }
 
+.news__content
+{
+	content: url('../img/news.png');
+}
+
 @media only screen and (max-width: 940px) and (min-width: 321px)
 {
 	.news__social
@@ -83,7 +88,6 @@
 	.news__content
 	{
 		display: inline-block;
-		content: url('../img/news.png');
 	}
 
 	.news__caption
