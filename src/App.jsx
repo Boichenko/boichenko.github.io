@@ -177,7 +177,7 @@ export default function App() {
           </div>
         </div>
         <div className="hero-card">
-          <img src={profileImage} alt="Hanna Boychenko" className="profile-image" />
+          <img height={450} width={450} src={profileImage} alt="Hanna Boychenko" className="profile-image" />
           <div className="contact-card">
             <p className="card-label">Contact</p>
             <a href="mailto:hanna.boychenko@gmail.com">hanna.boychenko@gmail.com</a>
