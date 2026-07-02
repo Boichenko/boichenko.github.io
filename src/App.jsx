@@ -6,11 +6,12 @@ const experience = [
     role: 'CPMO',
     period: 'Feb 2025 — Present',
     achievements: [
-      'Lead project operations and delivery coordination across Web3 and AI initiatives.',
-      'Build project management processes, reporting systems, and transparent delivery routines for cross-functional teams.',
+      'Lead project operations and delivery coordination across Web3, blockchain, and AI initiatives.',
+      'Build project plans, reporting systems, and transparent delivery routines for distributed cross-functional teams.',
       'Coordinate developers, product, design, analytics, compliance, legal, and finance stakeholders.',
-      'Manage resource allocation, delivery risks, budgets, priorities, and OKR alignment.',
-      'Support project discovery and execution in fast-changing product environments where technical context matters.',
+      'Manage timelines, scope, resources, dependencies, risks, budgets, priorities, and OKR alignment.',
+      'Drive bottlenecks to resolution, follow up on critical deliverables, and keep leadership informed on status and outcomes.',
+      'Support requirement definition and release coordination in fast-changing product environments where technical context matters.',
     ],
   },
   {
@@ -18,9 +19,10 @@ const experience = [
     role: 'Project Management Officer',
     period: 'Feb 2024 — Feb 2025',
     achievements: [
-      'Supported delivery management for Web3 and crypto-related projects.',
+      'Supported delivery management for Web3, crypto, and digital asset projects.',
       'Improved team coordination, planning discipline, status reporting, and stakeholder visibility.',
-      'Balanced scope, resources, timelines, and budgets across active initiatives.',
+      'Balanced scope, resources, timelines, budgets, and cross-team dependencies across active initiatives.',
+      'Reviewed deliverables, validated quality expectations, and coordinated fixes with technical and business stakeholders.',
       'Worked closely with technical teams and business stakeholders to keep delivery decisions grounded and realistic.',
     ],
   },
@@ -32,7 +34,7 @@ const experience = [
       'Managed multiple software projects at different stages with both T&M and fixed-price delivery models.',
       'Connected project management, product discovery, and presale work to improve delivery quality and client alignment.',
       'Prepared plans, roadmaps, status reports, meeting notes, and delivery documentation.',
-      'Handled risks, resource allocation, budgets, ceremonies, and one-on-one sessions with team members.',
+      'Handled risks, resource allocation, budgets, ceremonies, quality reviews, and one-on-one sessions with team members.',
       'Processed 90+ RFPs and shaped solution approaches for clients across several domains.',
     ],
   },
@@ -69,18 +71,23 @@ const experience = [
 
 const primarySkills = [
   'Project Management',
+  'Crypto Project Delivery',
   'Web3 Delivery',
+  'Blockchain Product Delivery',
   'AI Project Coordination',
+  'NFT / Token Feature Coordination',
+  'Expediting',
+  'Logistics Management',
+  'Quality Inspection',
   'Team Leadership',
   'Operational Efficiency',
   'OKR Development',
   'Cross-Functional Collaboration',
   'Reporting Systems',
-  'Strategic Thinking',
-  'Financial Management',
   'Stakeholder Management',
   'Risk Management',
   'Budget Management',
+  'Vendor Coordination',
   'Product Discovery',
   'Presale',
 ]
@@ -106,8 +113,12 @@ const tools = [
 const methodologies = ['Agile', 'Scrum', 'Kanban', 'Scrumban', 'Waterfall', 'T&M', 'Fixed-price']
 
 const projects = [
+  'Blockchain-enabled Products',
   'Web3 Products',
   'Crypto Platforms',
+  'Digital Asset Products',
+  'NFT / Token Feature Discovery',
+  'Remote Cross-functional Delivery',
   'AI Products',
   'PIM System',
   'Fintech Startup from Scratch',
@@ -168,11 +179,13 @@ export default function App() {
         <div className="hero-copy">
           <p className="eyebrow">Portfolio</p>
           <h1>Hanna Boychenko</h1>
-          <p className="hero-role">Web3 & AI Project Management Officer</p>
+          <p className="hero-role">Crypto / Web3 Project Manager</p>
           <p className="hero-summary">
-            Project management leader with 12 years in IT, strong Web3 and AI delivery experience, and 7 years of hands-on
-            software engineering background before moving into PM and product operations. I connect business, product, and
-            technical teams, bringing structure to complex initiatives without losing the engineering reality behind them.
+            Project management leader with 12 years in IT, including Web3, crypto, blockchain, and AI delivery experience.
+            I coordinate distributed technical, product, design, compliance, and business teams, manage timelines, scope,
+            risks, resources, and dependencies, and drive critical deliverables to completion. My 7 years of hands-on
+            software engineering experience help me understand technical requirements, validate deliverables, and keep
+            release plans realistic.
           </p>
           <div className="hero-actions">
             <a href="mailto:hanna.boychenko@gmail.com" className="button primary">Email me</a>
@@ -210,15 +223,15 @@ export default function App() {
           <div>
             <SectionTitle
               eyebrow="About"
-              title="A Web3 and AI PM with engineering depth"
-              text="I have worked in two Web3 companies and participated in multiple Web3, crypto, and AI initiatives. My software development background helps me translate between technical and business contexts, reduce misunderstandings, and keep delivery decisions practical."
+              title="A crypto PM with engineering depth"
+              text="I have worked in two Web3 companies and participated in multiple Web3, crypto, digital asset, and AI initiatives. My software development background helps me translate between technical and business contexts, define realistic requirements, inspect deliverables, and keep remote teams moving through complex dependencies."
             />
           </div>
           <div className="info-card">
             <h3>Industries</h3>
-            <p>Web3, Crypto, AI, Finance, E-commerce</p>
+            <p>Web3, Crypto, Blockchain, Digital Assets, AI, Finance, E-commerce</p>
             <h3>Team scope</h3>
-            <p>Managed teams of up to 14 people across multiple disciplines.</p>
+            <p>Managed teams of up to 14 people across product, engineering, design, analytics, and business functions.</p>
             <h3>Technical foundation</h3>
             <p>Technical education and 7 years of software development experience before moving into project and product management.</p>
           </div>
