@@ -2,15 +2,26 @@ import profileImage from './assets/profile.jpg'
 
 const experience = [
   {
-    company: 'QWERTY',
+    company: 'deBridge',
     role: 'CPMO',
-    period: 'Feb 2024 — Present',
+    period: 'Feb 2025 — Present',
     achievements: [
-      'Managed resource allocation for AI and crypto projects, balancing team capacity and budgets.',
-      'Developed project management processes, reporting systems, and coordination practices across teams.',
-      'Led cross-functional delivery involving developers, designers, and analysts.',
-      'Controlled budgets, tracked risks, supported OKR management, and improved transparency for stakeholders.',
-      'Worked with internal functions such as Compliance, Legal, and Finance to keep initiatives aligned with company standards.',
+      'Lead project operations and delivery coordination across Web3 and AI initiatives.',
+      'Build project management processes, reporting systems, and transparent delivery routines for cross-functional teams.',
+      'Coordinate developers, product, design, analytics, compliance, legal, and finance stakeholders.',
+      'Manage resource allocation, delivery risks, budgets, priorities, and OKR alignment.',
+      'Support project discovery and execution in fast-changing product environments where technical context matters.',
+    ],
+  },
+  {
+    company: 'VBGL',
+    role: 'Project Management Officer',
+    period: 'Feb 2024 — Feb 2025',
+    achievements: [
+      'Supported delivery management for Web3 and crypto-related projects.',
+      'Improved team coordination, planning discipline, status reporting, and stakeholder visibility.',
+      'Balanced scope, resources, timelines, and budgets across active initiatives.',
+      'Worked closely with technical teams and business stakeholders to keep delivery decisions grounded and realistic.',
     ],
   },
   {
@@ -18,11 +29,11 @@ const experience = [
     role: 'Project Management Officer, Product Manager, Presale Lead',
     period: 'Nov 2020 — Jan 2024',
     achievements: [
-      'Managed multiple projects at different stages with both T&M and fixed-price delivery models.',
-      'Integrated project management and presale processes to improve delivery coordination and efficiency.',
-      'Prepared plans, status reports, and meeting notes to maintain clear communication.',
+      'Managed multiple software projects at different stages with both T&M and fixed-price delivery models.',
+      'Connected project management, product discovery, and presale work to improve delivery quality and client alignment.',
+      'Prepared plans, roadmaps, status reports, meeting notes, and delivery documentation.',
       'Handled risks, resource allocation, budgets, ceremonies, and one-on-one sessions with team members.',
-      'Processed 90+ RFPs and designed solution approaches as a presale consultant.',
+      'Processed 90+ RFPs and shaped solution approaches for clients across several domains.',
     ],
   },
   {
@@ -30,9 +41,9 @@ const experience = [
     role: 'Software Developer',
     period: 'Nov 2017 — Oct 2020',
     achievements: [
-      'Designed software architecture and contributed to code structure and engineering collaboration.',
-      'Worked across .NET and JavaScript projects, including React.js and Node.js.',
-      'Collaborated with teams of different sizes, including large project teams.',
+      'Built production software in .NET and JavaScript environments, including React.js and Node.js.',
+      'Contributed to architecture discussions, code structure, and engineering collaboration.',
+      'Gained practical experience working inside teams of different sizes, including large delivery teams.',
     ],
   },
   {
@@ -58,6 +69,8 @@ const experience = [
 
 const primarySkills = [
   'Project Management',
+  'Web3 Delivery',
+  'AI Project Coordination',
   'Team Leadership',
   'Operational Efficiency',
   'OKR Development',
@@ -68,7 +81,8 @@ const primarySkills = [
   'Stakeholder Management',
   'Risk Management',
   'Budget Management',
-  'Backlog Refinement',
+  'Product Discovery',
+  'Presale',
 ]
 
 const tools = [
@@ -92,6 +106,9 @@ const tools = [
 const methodologies = ['Agile', 'Scrum', 'Kanban', 'Scrumban', 'Waterfall', 'T&M', 'Fixed-price']
 
 const projects = [
+  'Web3 Products',
+  'Crypto Platforms',
+  'AI Products',
   'PIM System',
   'Fintech Startup from Scratch',
   'Virtualized Service Platform',
@@ -114,7 +131,7 @@ const education = [
   'BA Courses by MyMonday (2020)',
   'PM Courses by MyMonday (2020, 2022)',
   'UX/UI Courses by TeachMeSkills (2020)',
-  'Software Engineering, Polotsk State University (2010–2015)',
+  'Bachelor’s Degree in Software Engineering, Polotsk State University (2010–2015)',
 ]
 
 const languages = [
@@ -151,11 +168,11 @@ export default function App() {
         <div className="hero-copy">
           <p className="eyebrow">Portfolio</p>
           <h1>Hanna Boychenko</h1>
-          <p className="hero-role">Project Management Officer</p>
+          <p className="hero-role">Web3 & AI Project Management Officer</p>
           <p className="hero-summary">
-            PM leader with 12 years in IT, including hands-on software development and the last 5 years focused on project management.
-            Experienced in AI, crypto, finance, and e-commerce projects, with a strong focus on cross-functional coordination,
-            budgeting, delivery structure, and operational efficiency.
+            Project management leader with 12 years in IT, strong Web3 and AI delivery experience, and 7 years of hands-on
+            software engineering background before moving into PM and product operations. I connect business, product, and
+            technical teams, bringing structure to complex initiatives without losing the engineering reality behind them.
           </p>
           <div className="hero-actions">
             <a href="mailto:hanna.boychenko@gmail.com" className="button primary">Email me</a>
@@ -171,8 +188,8 @@ export default function App() {
               <span>years in PM</span>
             </div>
             <div>
-              <strong>90+</strong>
-              <span>RFPs processed</span>
+              <strong>7</strong>
+              <span>years in development</span>
             </div>
           </div>
         </div>
@@ -193,15 +210,17 @@ export default function App() {
           <div>
             <SectionTitle
               eyebrow="About"
-              title="A PM with a technical background"
-              text="My development experience helps me translate between technical and business contexts, reduce misunderstandings, and improve delivery flow across teams."
+              title="A Web3 and AI PM with engineering depth"
+              text="I have worked in two Web3 companies and participated in multiple Web3, crypto, and AI initiatives. My software development background helps me translate between technical and business contexts, reduce misunderstandings, and keep delivery decisions practical."
             />
           </div>
           <div className="info-card">
             <h3>Industries</h3>
-            <p>AI, Crypto, Finance, E-commerce</p>
+            <p>Web3, Crypto, AI, Finance, E-commerce</p>
             <h3>Team scope</h3>
             <p>Managed teams of up to 14 people across multiple disciplines.</p>
+            <h3>Technical foundation</h3>
+            <p>Technical education and 7 years of software development experience before moving into project and product management.</p>
           </div>
         </section>
 
