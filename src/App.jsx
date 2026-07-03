@@ -3,7 +3,7 @@ import profileImage from './assets/profile.jpg'
 const experience = [
   {
     company: 'deBridge',
-    role: 'CPMO',
+    role: 'Project Manager',
     period: 'Feb 2025 — Present',
     achievements: [
       'Lead project operations and delivery coordination across Web3, blockchain, and AI initiatives.',
