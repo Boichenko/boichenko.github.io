@@ -217,7 +217,7 @@ export default function App() {
             <p className="card-label">Contact</p>
             <a href="mailto:hanna.boychenko@gmail.com">hanna.boychenko@gmail.com</a>
             <p>
-              <a href="https://www.linkedin.com/in/hanna-boychenko-a48b3078/">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/hannaboychenko/">LinkedIn</a>
             </p>
           </div>
         </div>
