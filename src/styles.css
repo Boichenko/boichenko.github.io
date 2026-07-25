@@ -143,6 +143,14 @@ code {
   background: rgba(255, 255, 255, 0.6);
 }
 
+.case-item + .case-item {
+  margin-top: 22px;
+}
+
+.case-item p {
+  margin: 0;
+}
+
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -327,5 +335,182 @@ code {
   .info-card,
   .timeline-item {
     padding: 22px;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  :root,
+  body {
+    background: #ffffff;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .page-shell {
+    width: 100%;
+    padding: 0;
+  }
+
+  .hero {
+    grid-template-columns: 1.55fr 0.75fr;
+    gap: 14px;
+    break-inside: avoid;
+  }
+
+  .hero-copy,
+  .hero-card,
+  .info-card,
+  .timeline-item {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+
+  .hero-copy {
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero-role {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .hero-summary,
+  .section-text,
+  .timeline-item li,
+  .simple-list,
+  .info-card p,
+  .contact-card {
+    line-height: 1.42;
+  }
+
+  .hero-summary {
+    margin-top: 14px;
+    font-size: 11px;
+  }
+
+  .hero-actions {
+    display: none;
+  }
+
+  .hero-stats {
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .hero-stats div {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .hero-stats strong {
+    font-size: 20px;
+  }
+
+  .hero-stats span,
+  .pill,
+  .timeline-period,
+  .timeline-role {
+    font-size: 9px;
+  }
+
+  .hero-card {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .profile-image {
+    max-width: 190px;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+
+  .contact-card {
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .section {
+    margin-top: 12px;
+  }
+
+  main > .section:nth-of-type(2) {
+    break-before: page;
+  }
+
+  .section-grid {
+    gap: 12px;
+  }
+
+  .section-heading {
+    margin-bottom: 10px;
+  }
+
+  .section-heading h2 {
+    font-size: 24px;
+    line-height: 1.05;
+  }
+
+  .eyebrow,
+  .card-label {
+    margin-bottom: 8px;
+    font-size: 8px;
+  }
+
+  .info-card {
+    padding: 14px;
+  }
+
+  .info-card h3 {
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+
+  .info-card h3:not(:first-child) {
+    margin-top: 12px;
+  }
+
+  .card-stack,
+  .timeline {
+    gap: 10px;
+  }
+
+  .pill-list {
+    gap: 6px;
+  }
+
+  .pill {
+    padding: 5px 8px;
+    border-radius: 999px;
+  }
+
+  .timeline-item {
+    grid-template-columns: 0.65fr 1.35fr;
+    gap: 12px;
+    padding: 14px;
+    break-inside: avoid;
+  }
+
+  .timeline-item ul,
+  .simple-list {
+    padding-left: 18px;
+  }
+
+  .timeline-item li + li,
+  .simple-list li + li {
+    margin-top: 5px;
   }
 }

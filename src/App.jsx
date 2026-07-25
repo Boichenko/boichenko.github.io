@@ -6,12 +6,12 @@ const experience = [
     role: 'Project Manager',
     period: 'Feb 2025 — Present',
     achievements: [
-      'Lead project operations and delivery coordination across Web3, blockchain, and AI initiatives.',
-      'Build project plans, reporting systems, and transparent delivery routines for distributed cross-functional teams.',
-      'Coordinate developers, product, design, analytics, compliance, legal, and finance stakeholders.',
-      'Manage timelines, scope, resources, dependencies, risks, budgets, priorities, and OKR alignment.',
-      'Drive bottlenecks to resolution, follow up on critical deliverables, and keep leadership informed on status and outcomes.',
-      'Support requirement definition and release coordination in fast-changing product environments where technical context matters.',
+      'Lead end-to-end delivery coordination across concurrent Web3, blockchain, and AI initiatives in a distributed product environment.',
+      'Turn business goals and technical inputs into delivery plans, ownership maps, milestones, release readiness criteria, and executive-level status reporting.',
+      'Coordinate engineering, product, design, analytics, compliance, legal, and finance stakeholders across complex cross-team dependencies.',
+      'Introduced structured planning, risk and dependency tracking, and recurring reporting routines that made ownership, blockers, and delivery status more visible.',
+      'Drive critical-path issues to resolution by clarifying decisions, escalating risks early, and following deliverables through release.',
+      'Support requirements definition, prioritization, capacity planning, budget tracking, and OKR alignment while keeping delivery plans realistic.',
     ],
   },
   {
@@ -19,11 +19,11 @@ const experience = [
     role: 'Project Management Officer',
     period: 'Feb 2024 — Feb 2025',
     achievements: [
-      'Supported delivery management for Web3, crypto, and digital asset projects.',
-      'Improved team coordination, planning discipline, status reporting, and stakeholder visibility.',
-      'Balanced scope, resources, timelines, budgets, and cross-team dependencies across active initiatives.',
-      'Reviewed deliverables, validated quality expectations, and coordinated fixes with technical and business stakeholders.',
-      'Worked closely with technical teams and business stakeholders to keep delivery decisions grounded and realistic.',
+      'Coordinated delivery across multiple Web3, crypto, and digital asset initiatives, from planning and requirements alignment through release follow-up.',
+      'Established consistent planning, status reporting, meeting follow-ups, and risk and dependency tracking across active workstreams.',
+      'Connected technical and business stakeholders, translated priorities into actionable plans, and surfaced delivery trade-offs early.',
+      'Balanced scope, timelines, resources, budgets, and cross-team dependencies while maintaining visibility for leadership.',
+      'Reviewed deliverables against agreed requirements, coordinated issue resolution, and helped teams reach release readiness under changing priorities.',
     ],
   },
   {
@@ -71,14 +71,17 @@ const experience = [
 
 const primarySkills = [
   'Project Management',
+  'Technical Delivery',
   'Crypto Project Delivery',
   'Web3 Delivery',
   'Blockchain Product Delivery',
   'AI Project Coordination',
   'NFT / Token Feature Coordination',
-  'Expediting',
-  'Logistics Management',
-  'Quality Inspection',
+  'Release Management',
+  'Requirements Management',
+  'Dependency Management',
+  'Process Design',
+  'Web3 Integrations',
   'Team Leadership',
   'Operational Efficiency',
   'OKR Development',
@@ -118,23 +121,24 @@ const projects = [
   'Crypto Platforms',
   'Digital Asset Products',
   'NFT / Token Feature Discovery',
-  'Remote Cross-functional Delivery',
   'AI Products',
-  'PIM System',
-  'Fintech Startup from Scratch',
-  'Virtualized Service Platform',
-  'Phone Number Research Tool',
-  'Email Management System',
-  'Research Employees Platform',
-  'Scheduler',
-  'Test Automation Tool',
-  'Insurances',
-  'Industrial KPI Provider',
-  'Mercedes Cafe',
-  'Land Rover / Jaguar Observer',
-  'Clinic Management System',
-  'Real Estate System',
-  'Clinical Trials SaaS Platform',
+  'Fintech Platforms',
+  'B2B SaaS Products',
+]
+
+const caseStudies = [
+  {
+    title: 'Web3 delivery operations',
+    text: 'Built a transparent operating rhythm for NDA-protected initiatives: delivery plans, ownership, milestones, dependencies, risk tracking, and leadership reporting across distributed functions.',
+  },
+  {
+    title: 'Cross-functional release coordination',
+    text: 'Aligned product, engineering, design, analytics, compliance, legal, and business stakeholders around requirements, readiness criteria, unresolved decisions, and critical-path deliverables.',
+  },
+  {
+    title: 'AI and digital product delivery',
+    text: 'Converted evolving business needs into actionable workstreams, coordinated priorities and capacity, and kept delivery moving as scope and technical constraints changed.',
+  },
 ]
 
 const education = [
@@ -179,21 +183,22 @@ export default function App() {
         <div className="hero-copy">
           <p className="eyebrow">Portfolio</p>
           <h1>Hanna Boychenko</h1>
-          <p className="hero-role">Crypto / Web3 Project Manager</p>
+          <p className="hero-role">Technical Project Manager | Web3, Blockchain & AI</p>
           <p className="hero-summary">
-            Project management leader with 12 years in IT, including Web3, crypto, blockchain, and AI delivery experience.
+            Technical project management leader with 13+ years in IT, including Web3, crypto, blockchain, and AI delivery experience.
             I coordinate distributed technical, product, design, compliance, and business teams, manage timelines, scope,
             risks, resources, and dependencies, and drive critical deliverables to completion. My 7 years of hands-on
-            software engineering experience help me understand technical requirements, validate deliverables, and keep
-            release plans realistic.
+            Web2 software engineering experience help me translate between business and engineering, validate requirements,
+            and keep release plans realistic.
           </p>
           <div className="hero-actions">
             <a href="mailto:hanna.boychenko@gmail.com" className="button primary">Email me</a>
+            <a href="/Hanna-Boychenko-Technical-PM-Web3-AI-CV.pdf" download className="button secondary">Download CV</a>
             <a href="#experience" className="button secondary">View experience</a>
           </div>
           <div className="hero-stats">
             <div>
-              <strong>12+</strong>
+              <strong>13+</strong>
               <span>years in IT</span>
             </div>
             <div>
@@ -223,8 +228,8 @@ export default function App() {
           <div>
             <SectionTitle
               eyebrow="About"
-              title="A crypto PM with engineering depth"
-              text="I have worked in two Web3 companies and participated in multiple Web3, crypto, digital asset, and AI initiatives. My software development background helps me translate between technical and business contexts, define realistic requirements, inspect deliverables, and keep remote teams moving through complex dependencies."
+              title="A technical PM with engineering depth"
+              text="I have worked in two Web3 companies and participated in multiple Web3, crypto, digital asset, and AI initiatives. My Web2 development background helps me translate between technical and business contexts, define realistic requirements, inspect deliverables, and keep remote teams moving through complex dependencies."
             />
           </div>
           <div className="info-card">
@@ -233,7 +238,7 @@ export default function App() {
             <h3>Team scope</h3>
             <p>Managed teams of up to 14 people across product, engineering, design, analytics, and business functions.</p>
             <h3>Technical foundation</h3>
-            <p>Technical education and 7 years of software development experience before moving into project and product management.</p>
+            <p>Technical education and 7 years of Web2 software development experience before moving into project and product management.</p>
           </div>
         </section>
 
@@ -277,9 +282,23 @@ export default function App() {
 
         <section className="section section-grid">
           <div className="info-card">
-            <SectionTitle eyebrow="Delivery history" title="Project types" />
+            <SectionTitle eyebrow="Delivery history" title="Selected project types" />
             <PillList items={projects} />
           </div>
+          <div className="info-card">
+            <SectionTitle eyebrow="Selected work" title="NDA-safe delivery examples" />
+            <div className="case-list">
+              {caseStudies.map((item) => (
+                <article className="case-item" key={item.title}>
+                  <h3>{item.title}</h3>
+                  <p>{item.text}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="section section-grid">
           <div className="info-card">
             <SectionTitle eyebrow="Education" title="Courses and academic background" />
             <ul className="simple-list">
