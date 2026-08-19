@@ -15,7 +15,7 @@ const experience = [
     ],
   },
   {
-    company: 'VBGL',
+    company: 'VBGL — NDA',
     role: 'Project Management Officer',
     period: 'Feb 2024 — Jan 2025',
     achievements: [
