@@ -17,7 +17,7 @@ const experience = [
   {
     company: 'VBGL',
     role: 'Project Management Officer',
-    period: 'Feb 2024 — Feb 2025',
+    period: 'Feb 2024 — Jan 2025',
     achievements: [
       'Coordinated delivery across multiple Web3, crypto, and digital asset initiatives, from planning and requirements alignment through release follow-up.',
       'Established consistent planning, status reporting, meeting follow-ups, and risk and dependency tracking across active workstreams.',
