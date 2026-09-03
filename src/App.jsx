@@ -2,7 +2,7 @@ import profileImage from './assets/profile.jpg'
 
 const experience = [
   {
-    company: 'deBridge',
+    company: 'NDA',
     role: 'Project Manager',
     period: 'Feb 2025 — Present',
     achievements: [
