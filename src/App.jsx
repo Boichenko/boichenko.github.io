@@ -67,6 +67,15 @@ const experience = [
       'Coordinated first-year students and supported thesis project management and quality control.',
     ],
   },
+  {
+    company: 'Riftek',
+    role: 'Software Developer',
+    period: '2013 — Jun 2015',
+    achievements: [
+      'Designed and developed a database for storing and organizing information about components used in 3D scanners.',
+      'Built an application that enabled users to query the database and maintain records for those components.',
+    ],
+  },
 ]
 
 const primarySkills = [
