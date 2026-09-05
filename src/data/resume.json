@@ -2,7 +2,7 @@
   "basics": {
     "name": "Hanna Boychenko",
     "headline": "Technical Project Manager | Program Manager | PMO",
-    "summary": "Technical project and program management leader with 13+ years in IT, including Web3, crypto, blockchain, and AI delivery experience. I coordinate distributed technical, product, design, compliance, and business teams, manage timelines, scope, risks, resources, and dependencies, and drive critical deliverables to completion. My 7 years of hands-on software engineering experience help me translate between business and engineering, validate requirements, and keep release plans realistic.",
+    "summary": "Technical Project Manager, Program Manager, and PMO leader with 13+ years in IT, including 5+ years leading up to six concurrent projects and cross-functional teams of up to 25 people. Backed by 7 years of hands-on software engineering experience, I bridge business and engineering across Web3, AI, SaaS, and complex digital products. My scope includes delivery governance, roadmaps, resources, budgets, risks, dependencies, executive reporting, presales, and release coordination.",
     "email": "hanna.boychenko@gmail.com",
     "linkedin": {
       "label": "LinkedIn",
@@ -16,11 +16,11 @@
     { "value": "7", "label": "years in development" }
   ],
   "about": {
-    "text": "I have worked in two Web3 companies and participated in multiple Web3, crypto, digital asset, and AI initiatives. My Web2 development background helps me translate between technical and business contexts, define realistic requirements, inspect deliverables, and keep remote teams moving through complex dependencies.",
+    "text": "I lead complex multi-project delivery at the intersection of product, engineering, and business. My background spans Web3 infrastructure, AI-enabled products, B2B SaaS, clinical trials, PropTech, HRTech, and industrial software, from hands-on architecture and development through PMO governance and presales.",
     "facts": [
       {
         "title": "Industries",
-        "text": "Web3, Crypto, Blockchain, Digital Assets, AI, Finance, E-commerce"
+        "text": "Web3, Crypto, Blockchain, AI, B2B SaaS, FinTech, HealthTech / Clinical Trials, HRTech, PropTech / Real Estate, Rental Marketplaces, Industrial / 3D Scanning"
       },
       {
         "title": "Team scope",
@@ -36,29 +36,28 @@
     {
       "title": "Primary skills",
       "items": [
-        "Project Management",
+        "Technical Project Management",
+        "Program Management",
+        "Multi-project Delivery",
+        "PMO Governance",
         "Technical Delivery",
-        "Crypto Project Delivery",
-        "Web3 Delivery",
-        "Blockchain Product Delivery",
-        "AI Project Coordination",
-        "NFT / Token Feature Coordination",
-        "Release Management",
-        "Requirements Management",
-        "Dependency Management",
-        "Process Design",
-        "Web3 Integrations",
-        "Team Leadership",
-        "Operational Efficiency",
-        "OKR Development",
-        "Cross-Functional Collaboration",
-        "Reporting Systems",
+        "Delivery Governance",
+        "Cross-Functional Team Leadership",
         "Stakeholder Management",
         "Risk Management",
+        "Dependency Management",
+        "Resource & Capacity Planning",
         "Budget Management",
-        "Vendor Coordination",
+        "Release Management",
+        "Requirements Management",
+        "Roadmapping",
+        "Executive Reporting",
+        "Process Improvement",
         "Product Discovery",
-        "Presale"
+        "Presales & RFPs",
+        "Web3 & Blockchain Delivery",
+        "AI Product Delivery",
+        "B2B SaaS Delivery"
       ]
     },
     {
@@ -74,15 +73,11 @@
         "Notion",
         "Trello",
         "Shortcut",
-        "ZenHub",
         "GitLab",
         "Bitbucket",
         "Figma",
         "Draw.io",
-        "Sketch",
-        "Instagantt",
         "Grafana",
-        "MS Office",
         "MS Excel"
       ]
     }
@@ -174,27 +169,27 @@
     }
   ],
   "projectTypes": [
-    "Blockchain-enabled Products",
-    "Web3 Products",
-    "Crypto Platforms",
-    "Digital Asset Products",
-    "NFT / Token Feature Discovery",
-    "AI Products",
-    "Fintech Platforms",
-    "B2B SaaS Products"
+    "Web3 Infrastructure",
+    "Blockchain & Crypto Products",
+    "AI-enabled Products",
+    "B2B SaaS Platforms",
+    "Clinical Trial Software",
+    "HR-tech & Job Matching",
+    "PropTech & Rental Marketplaces",
+    "Industrial Data Systems"
   ],
   "caseStudies": [
     {
-      "title": "Web3 delivery operations",
-      "text": "Built a transparent operating rhythm for NDA-protected initiatives: delivery plans, ownership, milestones, dependencies, risk tracking, and leadership reporting across distributed functions."
+      "title": "Multi-project delivery governance",
+      "text": "Coordinated approximately six concurrent Web3 and AI client projects across different delivery stages, managing cross-functional teams of up to 25 and standardizing planning, reporting, risk, and dependency tracking."
     },
     {
-      "title": "Cross-functional release coordination",
-      "text": "Aligned product, engineering, design, analytics, compliance, legal, and business stakeholders around requirements, readiness criteria, unresolved decisions, and critical-path deliverables."
+      "title": "PMO, team-of-teams leadership, and presales",
+      "text": "Managed 4–5 concurrent T&M and fixed-price projects, structured delivery across several sub-teams, managed Project Managers, and led delivery and solution planning for 90+ RFPs."
     },
     {
-      "title": "AI and digital product delivery",
-      "text": "Converted evolving business needs into actionable workstreams, coordinated priorities and capacity, and kept delivery moving as scope and technical constraints changed."
+      "title": "Engineering-led product modernization",
+      "text": "Applied 7 years of software development experience to architecture and legacy modernization, including the ground-up re-architecture of Mobilehead's multi-brand HR-tech product suite."
     }
   ],
   "education": [
@@ -211,7 +206,6 @@
     { "name": "Polish", "level": "Intermediate" }
   ],
   "interests": [
-    "Open to expanding responsibilities and learning new areas.",
     "Singing, piano, and guitar.",
     "Cycling, outdoor activities, and sports.",
     "Books, meetups, and conferences for continuous learning."
