@@ -20,7 +20,7 @@
     "facts": [
       {
         "title": "Industries",
-        "text": "Web3, Crypto, Blockchain, AI, B2B SaaS, FinTech, HealthTech / Clinical Trials, HRTech, PropTech / Real Estate, Rental Marketplaces, Industrial / 3D Scanning"
+        "text": "Web3, Crypto, Blockchain, AI, B2B SaaS, FinTech, Insurance, HealthTech / Clinical Trials, HRTech, PropTech / Real Estate, Automotive, Industrial / 3D Scanning"
       },
       {
         "title": "Team scope",
@@ -142,9 +142,11 @@
       "section": "Technical background",
       "period": "Jul 2015 — Nov 2017",
       "achievements": [
-        "Worked on .NET, JavaScript, and Go projects.",
-        "Designed application architecture and supported code organization.",
-        "Collaborated with Polotsk State University on development courses aimed at identifying strong students."
+        "Delivered software across four client projects spanning insurance, industrial operations, and automotive customer-experience applications.",
+        "Redesigned application architecture, modernized existing components, and developed new functionality for an Israeli insurance platform.",
+        "Contributed to IndaSoft's I-DS manufacturing execution and production-dispatching platform, building functionality for monitoring and coordinating industrial processes and operational data.",
+        "Built full-screen Windows touchscreen applications from the ground up for Mercedes me Café and Jaguar Land Rover brand displays and showroom installations using WPF and WinRT.",
+        "Led university-based programming courses that supported Andersen's developer recruitment pipeline by identifying and attracting potential hires."
       ]
     },
     {
@@ -176,6 +178,8 @@
     "Clinical Trial Software",
     "HR-tech & Job Matching",
     "PropTech & Rental Marketplaces",
+    "Insurance Platforms",
+    "Automotive Showroom Applications",
     "Industrial Data Systems"
   ],
   "caseStudies": [
