@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Hanna Boychenko",
-    "headline": "Technical Project Manager | Web3, Blockchain & AI",
-    "summary": "Technical project management leader with 13+ years in IT, including Web3, crypto, blockchain, and AI delivery experience. I coordinate distributed technical, product, design, compliance, and business teams, manage timelines, scope, risks, resources, and dependencies, and drive critical deliverables to completion. My 7 years of hands-on Web2 software engineering experience help me translate between business and engineering, validate requirements, and keep release plans realistic.",
+    "headline": "Technical Project Manager | Program Manager | PMO",
+    "summary": "Technical project and program management leader with 13+ years in IT, including Web3, crypto, blockchain, and AI delivery experience. I coordinate distributed technical, product, design, compliance, and business teams, manage timelines, scope, risks, resources, and dependencies, and drive critical deliverables to completion. My 7 years of hands-on software engineering experience help me translate between business and engineering, validate requirements, and keep release plans realistic.",
     "email": "hanna.boychenko@gmail.com",
     "linkedin": {
       "label": "LinkedIn",
@@ -24,7 +24,7 @@
       },
       {
         "title": "Team scope",
-        "text": "Managed teams of up to 14 people across product, engineering, design, analytics, and business functions."
+        "text": "Managed cross-functional delivery teams of up to 25 people across product, engineering, design, analytics, and business functions."
       },
       {
         "title": "Technical foundation",
@@ -81,6 +81,7 @@
         "Draw.io",
         "Sketch",
         "Instagantt",
+        "Grafana",
         "MS Office",
         "MS Excel"
       ]
@@ -88,54 +89,56 @@
   ],
   "experience": [
     {
-      "company": "NDA",
+      "company": "Confidential Web3 Infrastructure Company (NDA)",
       "role": "Project Manager",
       "section": "Professional experience",
       "period": "Feb 2025 — Present",
       "achievements": [
-        "Lead end-to-end delivery coordination across concurrent Web3, blockchain, and AI initiatives in a distributed product environment.",
+        "Coordinate three concurrent technical workstreams across a seven-person team for a non-custodial Web3 infrastructure product.",
         "Turn business goals and technical inputs into delivery plans, ownership maps, milestones, release readiness criteria, and executive-level status reporting.",
         "Coordinate engineering, product, design, analytics, compliance, legal, and finance stakeholders across complex cross-team dependencies.",
-        "Introduced structured planning, risk and dependency tracking, and recurring reporting routines that made ownership, blockers, and delivery status more visible.",
-        "Drive critical-path issues to resolution by clarifying decisions, escalating risks early, and following deliverables through release.",
-        "Support requirements definition, prioritization, capacity planning, budget tracking, and OKR alignment while keeping delivery plans realistic."
+        "Build and maintain Grafana dashboards, charts, and visual reports for product and operational analytics, helping the team monitor trends and investigate changes in key indicators.",
+        "Use AI-assisted development to prototype internal services and analytics utilities alongside project delivery responsibilities.",
+        "Drive critical-path issues to resolution by clarifying decisions, escalating risks early, and following deliverables through release."
       ]
     },
     {
-      "company": "VBGL — NDA",
+      "company": "Confidential Web3 & AI Software Development Company (NDA)",
       "role": "Project Management Officer",
       "section": "Professional experience",
       "period": "Feb 2024 — Jan 2025",
       "achievements": [
-        "Coordinated delivery across multiple Web3, crypto, and digital asset initiatives, from planning and requirements alignment through release follow-up.",
-        "Established consistent planning, status reporting, meeting follow-ups, and risk and dependency tracking across active workstreams.",
+        "Coordinated approximately six concurrent client projects across different delivery stages in a Web3 and AI software outsourcing environment.",
+        "Managed cross-functional delivery teams of up to 25 people across multiple client engagements.",
+        "Standardized planning, status reporting, meeting follow-ups, and risk and dependency tracking across active workstreams.",
         "Connected technical and business stakeholders, translated priorities into actionable plans, and surfaced delivery trade-offs early.",
-        "Balanced scope, timelines, resources, budgets, and cross-team dependencies while maintaining visibility for leadership.",
-        "Reviewed deliverables against agreed requirements, coordinated issue resolution, and helped teams reach release readiness under changing priorities."
+        "Balanced scope, timelines, resources, budgets, and cross-team dependencies while maintaining visibility for leadership."
       ]
     },
     {
       "company": "Fively",
-      "role": "Project Management Officer, Product Manager, Presale Lead",
+      "role": "Project Management Officer | Product Manager | Presales Lead",
       "section": "Professional experience",
       "period": "Nov 2020 — Jan 2024",
       "achievements": [
-        "Managed multiple software projects at different stages with both T&M and fixed-price delivery models.",
-        "Connected project management, product discovery, and presale work to improve delivery quality and client alignment.",
-        "Prepared plans, roadmaps, status reports, meeting notes, and delivery documentation.",
-        "Handled risks, resource allocation, budgets, ceremonies, quality reviews, and one-on-one sessions with team members.",
-        "Processed 90+ RFPs and shaped solution approaches for clients across several domains."
+        "Managed 4–5 concurrent T&M and fixed-price software projects with cross-functional teams of up to 14 people.",
+        "Structured delivery across multiple sub-teams and managed several Project Managers responsible for individual workstreams.",
+        "Combined PMO leadership, product discovery, and presales responsibilities within a single cross-functional role.",
+        "Handled planning, roadmaps, risks, resource allocation, budgets, delivery ceremonies, quality reviews, and one-on-one sessions with team members.",
+        "Led delivery and solution planning for 90+ RFPs across multiple domains, translating client requirements into realistic scopes, team structures, timelines, and delivery approaches."
       ]
     },
     {
-      "company": "ITechArt",
+      "company": "iTechArt",
       "role": "Software Developer",
       "section": "Technical background",
       "period": "Nov 2017 — Oct 2020",
       "achievements": [
-        "Built production software in .NET and JavaScript environments, including React.js and Node.js.",
-        "Contributed to architecture discussions, code structure, and engineering collaboration.",
-        "Gained practical experience working inside teams of different sizes, including large delivery teams."
+        "Developed and modernized a complex clinical-trial management platform, contributing to a new architecture, delivering new features, and extending legacy functionality.",
+        "Delivered new product features for Roomi, a US rental and roommate-matching platform.",
+        "Contributed to the ground-up re-architecture and rebuild of Mobilehead, a multi-brand HR-tech platform for algorithm-driven job matching, and delivered new features across its web products.",
+        "Developed functionality for a German platform that automated the coordination of repair and renovation work across buildings and premises.",
+        "Worked across .NET and JavaScript environments, including React.js and Node.js."
       ]
     },
     {
