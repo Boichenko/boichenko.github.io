@@ -9,3 +9,5 @@ dist
 .env.production.local
 output/
 tmp/
+.venv/
+__pycache__/
