@@ -130,8 +130,8 @@
       "period": "Nov 2017 — Oct 2020",
       "achievements": [
         "Developed and modernized a complex clinical-trial management platform, contributing to a new architecture, delivering new features, and extending legacy functionality.",
-        "Delivered new product features for Roomi, a US rental and roommate-matching platform.",
-        "Contributed to the ground-up re-architecture and rebuild of Mobilehead's multi-brand HR-tech product suite, including Legalhead, Hotelhead, and Medihead, and delivered features for algorithm-driven job matching.",
+        "Delivered new product features for a US rental and roommate-matching platform.",
+        "Contributed to the ground-up re-architecture and rebuild of a multi-brand HR-tech product suite, delivering shared functionality across industry-specific platforms and features for algorithm-driven job matching.",
         "Developed functionality for a German platform that automated the coordination of repair and renovation work across buildings and premises.",
         "Worked across .NET and JavaScript environments, including React.js and Node.js."
       ]
@@ -145,7 +145,7 @@
         "Delivered software across four client projects spanning insurance, industrial operations, and automotive customer-experience applications.",
         "Redesigned application architecture, modernized existing components, and developed new functionality for an Israeli insurance platform.",
         "Developed functionality for an NDA-protected industrial manufacturing platform used to monitor and coordinate production processes and operational data.",
-        "Built full-screen Windows touchscreen applications from the ground up for Mercedes me Café and Jaguar Land Rover brand displays and showroom installations using WPF and WinRT.",
+        "Built full-screen Windows touchscreen applications from the ground up for global automotive brands' digital showrooms, interactive displays, and café installations using WPF and WinRT.",
         "Led university-based programming courses that supported Andersen's developer recruitment pipeline by identifying and attracting potential hires."
       ]
     },
@@ -193,7 +193,7 @@
     },
     {
       "title": "Engineering-led product modernization",
-      "text": "Applied 7 years of software development experience to architecture and legacy modernization, including the ground-up re-architecture of Mobilehead's multi-brand HR-tech product suite."
+      "text": "Applied 7 years of software development experience to architecture and legacy modernization, including the ground-up re-architecture of a multi-brand HR-tech product suite."
     }
   ],
   "education": [
