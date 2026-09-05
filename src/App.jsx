@@ -70,6 +70,7 @@ export default function App() {
           <img height={450} width={450} src={profileImage} alt={basics.profileImageAlt} className="profile-image" />
           <div className="contact-card">
             <p className="card-label">{ui.contactLabel}</p>
+            <p>{basics.location}</p>
             <a href={`mailto:${basics.email}`}>{basics.email}</a>
             <p>
               <a href={basics.linkedin.url}>{basics.linkedin.label}</a>

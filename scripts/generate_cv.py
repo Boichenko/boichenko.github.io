@@ -189,7 +189,7 @@ def generate(output_path: Path):
         paragraph(basics["name"], styles["title"]),
         paragraph(basics["headline"], styles["subtitle"]),
         Paragraph(
-            f'Email: <link href="mailto:{email}" color="#595959">{email}</link>'
+            f'{pdf_text(basics["location"])} | Email: <link href="mailto:{email}" color="#595959">{email}</link>'
             f' | LinkedIn: <link href="{linkedin_url}" color="#595959">{linkedin_label}</link>',
             styles["contact"],
         ),

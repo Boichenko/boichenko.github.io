@@ -75,6 +75,7 @@ const renderResume = (resume) => {
   const name = requiredString(basics?.name, 'basics.name')
   const headline = requiredString(basics?.headline, 'basics.headline')
   const summary = requiredString(basics?.summary, 'basics.summary')
+  const location = requiredString(basics?.location, 'basics.location')
   const aboutText = requiredString(about?.text, 'about.text')
 
   const renderedHighlights = renderItems(highlights, 'highlights', (highlight, field) => `            <div>
@@ -117,6 +118,7 @@ ${renderTextList(job?.achievements, `${field}.achievements`)}
         <p class="eyebrow">${requiredString(ui?.portfolioEyebrow, 'ui.portfolioEyebrow')}</p>
         <h1>${name}</h1>
         <p class="hero-role">${headline}</p>
+        <p>${location}</p>
         <p class="hero-summary">${summary}</p>
         <div class="hero-stats">
 ${renderedHighlights}
