@@ -14,7 +14,6 @@ from reportlab.platypus import (
     BaseDocTemplate,
     Frame,
     KeepTogether,
-    PageBreak,
     PageTemplate,
     Paragraph,
     Spacer,
@@ -74,8 +73,8 @@ def build_styles():
             fontSize=9.5,
             leading=11.5,
             textColor=ACCENT,
-            spaceBefore=8,
-            spaceAfter=5,
+            spaceBefore=6,
+            spaceAfter=4,
         ),
         "body": ParagraphStyle(
             "Body",
@@ -102,7 +101,7 @@ def build_styles():
             fontSize=10.5,
             leading=12.3,
             textColor=TEXT,
-            spaceBefore=4,
+            spaceBefore=3,
             spaceAfter=1,
         ),
         "job_date": ParagraphStyle(
@@ -145,7 +144,7 @@ def job_block(job, styles):
         paragraph(f"- {achievement}", styles["bullet"])
         for achievement in job["achievements"]
     )
-    elements.append(Spacer(1, 3))
+    elements.append(Spacer(1, 2))
     return KeepTogether(elements)
 
 
@@ -160,8 +159,8 @@ def generate(output_path: Path):
         pagesize=A4,
         rightMargin=45,
         leftMargin=45,
-        topMargin=42,
-        bottomMargin=42,
+        topMargin=36,
+        bottomMargin=30,
         invariant=1,
         pageCompression=1,
         title=f'{basics["name"]} - {basics["headline"]}',
@@ -209,7 +208,7 @@ def generate(output_path: Path):
             continue
         story.append(job_block(job, styles))
 
-    story.extend([PageBreak(), section_title("Technical background", styles)])
+    story.append(section_title("Technical background", styles))
     for job in resume["experience"]:
         if job["section"] != "Technical background":
             continue

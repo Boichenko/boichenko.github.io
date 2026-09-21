@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Hanna Boychenko",
-    "headline": "Technical Project Manager | Program Manager | PMO",
-    "summary": "Technical Project Manager, Program Manager, and PMO leader with 13+ years in IT, including 5+ years leading up to six concurrent projects and cross-functional teams of up to 25 people. Backed by 7 years of hands-on software engineering experience, I bridge business and engineering across Web3, AI, SaaS, and complex digital products. My scope includes delivery governance, roadmaps, resources, budgets, risks, dependencies, executive reporting, presales, and release coordination.",
+    "headline": "Technical Project Manager | Business Analyst | Program Manager | PMO",
+    "summary": "Technical Project Manager, Business Analyst, Program Manager, and PMO leader with 13+ years in IT, including 5+ years leading up to six concurrent projects and cross-functional teams of up to 25 people. Backed by 7 years of hands-on software engineering experience, I bridge business and engineering across Web3, AI, SaaS, and complex digital products. My scope combines delivery governance with business analysis, requirements elicitation and management, process mapping, user stories, acceptance criteria, documentation, executive reporting, presales, and release coordination.",
     "location": "Warsaw, Poland | Remote",
     "email": "hanna.boychenko@gmail.com",
     "linkedin": {
@@ -17,7 +17,7 @@
     { "value": "7", "label": "years in development" }
   ],
   "about": {
-    "text": "I lead complex multi-project delivery at the intersection of product, engineering, and business. My background spans Web3 infrastructure, AI-enabled products, B2B SaaS, clinical trials, PropTech, HRTech, and industrial software, from hands-on architecture and development through PMO governance and presales.",
+    "text": "I lead complex multi-project delivery at the intersection of product, engineering, and business, while working hands-on as a Business Analyst throughout discovery and delivery. I collect, analyze, document, and manage business and technical requirements, translate them into clear scopes, workflows, user stories, acceptance criteria, and delivery artifacts, and maintain project, product, process, and technical documentation.",
     "facts": [
       {
         "title": "Industries",
@@ -30,6 +30,14 @@
       {
         "title": "Technical foundation",
         "text": "Technical education and 7 years of Web2 software development experience before moving into project and product management."
+      },
+      {
+        "title": "Business analysis",
+        "text": "Hands-on requirements elicitation, stakeholder interviews and workshops, process mapping, gap analysis, user stories, acceptance criteria, and requirements traceability."
+      },
+      {
+        "title": "Documentation",
+        "text": "Create and maintain business, functional, technical, process, project, and release documentation throughout the delivery lifecycle."
       }
     ]
   },
@@ -38,6 +46,7 @@
       "title": "Primary skills",
       "items": [
         "Technical Project Management",
+        "Business Analysis",
         "Program Management",
         "Multi-project Delivery",
         "PMO Governance",
@@ -51,6 +60,7 @@
         "Budget Management",
         "Release Management",
         "Requirements Management",
+        "Documentation Management",
         "Roadmapping",
         "Executive Reporting",
         "Process Improvement",
@@ -59,6 +69,26 @@
         "Web3 & Blockchain Delivery",
         "AI Product Delivery",
         "B2B SaaS Delivery"
+      ]
+    },
+    {
+      "title": "Business analysis and documentation",
+      "items": [
+        "Requirements Elicitation & Gathering",
+        "Stakeholder Interviews & Workshops",
+        "Requirements Analysis",
+        "Functional & Non-functional Requirements",
+        "User Stories & Use Cases",
+        "Acceptance Criteria",
+        "Process Mapping",
+        "As-is / To-be Analysis",
+        "Gap Analysis",
+        "Requirements Traceability",
+        "Change Management",
+        "Business & Functional Documentation",
+        "Technical & Process Documentation",
+        "Decision Logs",
+        "Release Documentation"
       ]
     },
     {
@@ -88,10 +118,12 @@
       "company": "Confidential Web3 Infrastructure Company (NDA)",
       "role": "Project Manager",
       "section": "Professional experience",
-      "period": "Feb 2025 — Present",
+      "period": "Feb 2025 – Present",
       "achievements": [
         "Coordinate three concurrent technical workstreams across a seven-person team for a non-custodial Web3 infrastructure product.",
-        "Turn business goals and technical inputs into delivery plans, ownership maps, milestones, release readiness criteria, and executive-level status reporting.",
+        "Elicit, analyze, document, and manage business, product, and technical requirements across engineering, product, design, analytics, compliance, legal, and finance stakeholders.",
+        "Translate stakeholder needs into functional and non-functional requirements, user stories, acceptance criteria, process flows, delivery plans, ownership maps, milestones, and release readiness criteria.",
+        "Create and maintain project, product, process, and technical documentation, including requirements specifications, decision logs, meeting notes, change records, release documentation, and executive-level status reports.",
         "Coordinate engineering, product, design, analytics, compliance, legal, and finance stakeholders across complex cross-team dependencies.",
         "Build and maintain Grafana dashboards, charts, and visual reports for product and operational analytics, helping the team monitor trends and investigate changes in key indicators.",
         "Use AI-assisted development to prototype internal services and analytics utilities alongside project delivery responsibilities.",
@@ -102,11 +134,12 @@
       "company": "Confidential Web3 & AI Software Development Company (NDA)",
       "role": "Project Management Officer",
       "section": "Professional experience",
-      "period": "Feb 2024 — Jan 2025",
+      "period": "Feb 2024 – Jan 2025",
       "achievements": [
         "Coordinated approximately six concurrent client projects across different delivery stages in a Web3 and AI software outsourcing environment.",
         "Managed cross-functional delivery teams of up to 25 people across multiple client engagements.",
-        "Standardized planning, status reporting, meeting follow-ups, and risk and dependency tracking across active workstreams.",
+        "Collected, clarified, documented, and managed requirements from client and internal stakeholders across multiple Web3 and AI engagements, maintaining traceability from discovery through delivery.",
+        "Standardized business analysis and project documentation, including requirements, planning artifacts, status reports, meeting follow-ups, decision logs, and risk and dependency registers.",
         "Connected technical and business stakeholders, translated priorities into actionable plans, and surfaced delivery trade-offs early.",
         "Balanced scope, timelines, resources, budgets, and cross-team dependencies while maintaining visibility for leadership."
       ]
@@ -115,20 +148,21 @@
       "company": "Fively",
       "role": "Project Management Officer | Product Manager | Presales Lead",
       "section": "Professional experience",
-      "period": "Nov 2020 — Jan 2024",
+      "period": "Nov 2020 – Jan 2024",
       "achievements": [
         "Managed 4–5 concurrent T&M and fixed-price software projects with cross-functional teams of up to 14 people.",
         "Structured delivery across multiple sub-teams and managed several Project Managers responsible for individual workstreams.",
-        "Combined PMO leadership, product discovery, and presales responsibilities within a single cross-functional role.",
+        "Combined PMO leadership, business analysis, product discovery, and presales responsibilities within a single cross-functional role.",
+        "Led discovery and requirements workshops, documented business needs, functional scope, user stories, acceptance criteria, process flows, assumptions, and change requests.",
         "Handled planning, roadmaps, risks, resource allocation, budgets, delivery ceremonies, quality reviews, and one-on-one sessions with team members.",
-        "Led delivery and solution planning for 90+ RFPs across multiple domains, translating client requirements into realistic scopes, team structures, timelines, and delivery approaches."
+        "Led delivery and solution planning for 90+ RFPs across multiple domains, eliciting and analyzing client requirements and translating them into documented scopes, assumptions, team structures, timelines, and delivery approaches."
       ]
     },
     {
       "company": "iTechArt",
       "role": "Software Developer",
       "section": "Technical background",
-      "period": "Nov 2017 — Oct 2020",
+      "period": "Nov 2017 – Oct 2020",
       "achievements": [
         "Developed and modernized a complex clinical-trial management platform, contributing to a new architecture, delivering new features, and extending legacy functionality.",
         "Delivered new product features for a US rental and roommate-matching platform.",
@@ -141,7 +175,7 @@
       "company": "Andersen",
       "role": "Software Developer",
       "section": "Technical background",
-      "period": "Jul 2015 — Nov 2017",
+      "period": "Jul 2015 – Nov 2017",
       "achievements": [
         "Delivered software across four client projects spanning insurance, industrial operations, and automotive customer-experience applications.",
         "Redesigned application architecture, modernized existing components, and developed new functionality for an Israeli insurance platform.",
@@ -154,7 +188,7 @@
       "company": "Polotsk State University",
       "role": "Part-time Software Development Teacher",
       "section": "Technical background",
-      "period": "Aug 2015 — Nov 2016",
+      "period": "Aug 2015 – Nov 2016",
       "achievements": [
         "Taught software development courses with theory and lab work.",
         "Coordinated first-year students and supported thesis project management and quality control."
@@ -164,7 +198,7 @@
       "company": "Riftek",
       "role": "Software Developer",
       "section": "Technical background",
-      "period": "May 2013 — Jun 2015",
+      "period": "May 2013 – Jun 2015",
       "achievements": [
         "Designed and developed a database for storing and organizing information about components used in 3D scanners.",
         "Built an application that enabled users to query the database and maintain records for those components."
@@ -195,6 +229,10 @@
     {
       "title": "Engineering-led product modernization",
       "text": "Applied 7 years of software development experience to architecture and legacy modernization, including the ground-up re-architecture of a multi-brand HR-tech product suite."
+    },
+    {
+      "title": "Business analysis and documentation",
+      "text": "Elicited and managed business and technical requirements, documented functional scope, workflows, user stories, acceptance criteria, decisions, risks, and release readiness across Web3, AI, SaaS, and bespoke software projects."
     }
   ],
   "education": [
@@ -229,7 +267,7 @@
       { "label": "View experience", "href": "#experience", "style": "secondary" }
     ],
     "sections": {
-      "about": { "eyebrow": "About", "title": "A technical PM with engineering depth" },
+      "about": { "eyebrow": "About", "title": "A technical PM and BA with engineering depth" },
       "skills": { "eyebrow": "Core capabilities", "title": "Skills and methods" },
       "experience": { "eyebrow": "Career", "title": "Work experience" },
       "projects": { "eyebrow": "Delivery history", "title": "Selected project types" },
