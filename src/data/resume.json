@@ -108,6 +108,8 @@
       "items": [
         "Jira",
         "Linear",
+        "ClickUp",
+        "Asana",
         "Confluence",
         "Miro",
         "Notion",
