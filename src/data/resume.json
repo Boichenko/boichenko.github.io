@@ -17,7 +17,7 @@
     { "value": "7", "label": "years in development" }
   ],
   "about": {
-    "text": "I lead complex multi-project delivery at the intersection of product, engineering, and business, while working hands-on as a Business Analyst throughout discovery and delivery. I collect, analyze, document, and manage business and technical requirements, translate them into clear scopes, workflows, user stories, acceptance criteria, and delivery artifacts, and maintain project, product, process, and technical documentation.",
+    "text": "I lead complex multi-project delivery at the intersection of product, engineering, and business. I manage scope, roadmaps, priorities, cross-functional teams, resources, budgets, risks, dependencies, stakeholder communication, and release coordination across concurrent workstreams. Alongside delivery leadership, I work hands-on with business analysis by eliciting and managing business and technical requirements, translating them into clear scopes, workflows, user stories, acceptance criteria, and project, product, process, and technical documentation.",
     "facts": [
       {
         "title": "Industries",
@@ -26,6 +26,10 @@
       {
         "title": "Team scope",
         "text": "Managed cross-functional delivery teams of up to 25 people across product, engineering, design, analytics, and business functions."
+      },
+      {
+        "title": "Delivery management",
+        "text": "Lead concurrent workstreams through planning, roadmapping, prioritization, resource and budget management, risk and dependency control, stakeholder reporting, and release coordination."
       },
       {
         "title": "Technical foundation",
@@ -267,7 +271,7 @@
       { "label": "View experience", "href": "#experience", "style": "secondary" }
     ],
     "sections": {
-      "about": { "eyebrow": "About", "title": "A technical PM and BA with engineering depth" },
+      "about": { "eyebrow": "About", "title": "A technical PM with business analysis and engineering depth" },
       "skills": { "eyebrow": "Core capabilities", "title": "Skills and methods" },
       "experience": { "eyebrow": "Career", "title": "Work experience" },
       "projects": { "eyebrow": "Delivery history", "title": "Selected project types" },
