@@ -117,6 +117,10 @@ code {
   margin-top: 30px;
 }
 
+.hero-actions .button {
+  flex: 1;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -198,6 +202,11 @@ code {
   padding: 20px;
   border-radius: 22px;
   border: 1px solid var(--line);
+}
+
+.hero-card-action {
+  width: 100%;
+  margin-top: auto;
 }
 
 .card-label {
@@ -402,7 +411,8 @@ code {
     font-size: 11px;
   }
 
-  .hero-actions {
+  .hero-actions,
+  .hero-card-action {
     display: none;
   }
 

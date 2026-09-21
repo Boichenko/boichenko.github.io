@@ -37,6 +37,9 @@ export default function App() {
     ui,
   } = resume
 
+  const primaryActions = ui.actions.filter((action) => !action.download)
+  const downloadAction = ui.actions.find((action) => action.download)
+
   return (
     <div className="page-shell">
       <header className="hero">
@@ -46,7 +49,7 @@ export default function App() {
           <p className="hero-role">{basics.headline}</p>
           <p className="hero-summary">{basics.summary}</p>
           <div className="hero-actions">
-            {ui.actions.map((action) => (
+            {primaryActions.map((action) => (
               <a
                 href={action.target === 'email' ? `mailto:${basics.email}` : action.href}
                 className={`button ${action.style}`}
@@ -76,6 +79,15 @@ export default function App() {
               <a href={basics.linkedin.url}>{basics.linkedin.label}</a>
             </p>
           </div>
+          {downloadAction ? (
+            <a
+              href={downloadAction.href}
+              className={`button ${downloadAction.style} hero-card-action`}
+              download={downloadAction.download || undefined}
+            >
+              {downloadAction.label}
+            </a>
+          ) : null}
         </div>
       </header>
 
