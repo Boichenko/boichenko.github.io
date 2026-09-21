@@ -130,6 +130,12 @@ ${renderedHighlights}
       <section class="section section-grid" aria-labelledby="about-heading">
         <div>
 ${renderSectionHeading(ui?.sections?.about, 'ui.sections.about', aboutText, 'about-heading')}
+          <div class="info-card project-types-card">
+${renderSectionHeading(ui?.sections?.projects, 'ui.sections.projects')}
+            <div class="pill-list">
+${renderPills(projectTypes, 'projectTypes')}
+            </div>
+          </div>
         </div>
         <div class="info-card">
 ${renderedAboutFacts}
@@ -150,14 +156,8 @@ ${renderedExperience}
         </div>
       </section>
 
-      <section class="section section-grid" aria-label="Projects and selected work">
-        <div class="info-card">
-${renderSectionHeading(ui?.sections?.projects, 'ui.sections.projects')}
-          <div class="pill-list">
-${renderPills(projectTypes, 'projectTypes')}
-          </div>
-        </div>
-        <div class="info-card">
+      <section class="section" aria-label="Selected work">
+        <div class="info-card case-studies-card">
 ${renderSectionHeading(ui?.sections?.caseStudies, 'ui.sections.caseStudies')}
           <div class="case-list">
 ${renderedCaseStudies}

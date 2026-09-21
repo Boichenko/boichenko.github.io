@@ -102,6 +102,10 @@ export default function App() {
               title={ui.sections.about.title}
               text={about.text}
             />
+            <div className="info-card project-types-card">
+              <SectionTitle eyebrow={ui.sections.projects.eyebrow} title={ui.sections.projects.title} />
+              <PillList items={projectTypes} />
+            </div>
           </div>
           <div className="info-card">
             {about.facts.map((fact) => (
@@ -145,12 +149,8 @@ export default function App() {
           </div>
         </section>
 
-        <section className="section section-grid">
-          <div className="info-card">
-            <SectionTitle eyebrow={ui.sections.projects.eyebrow} title={ui.sections.projects.title} />
-            <PillList items={projectTypes} />
-          </div>
-          <div className="info-card">
+        <section className="section">
+          <div className="info-card case-studies-card">
             <SectionTitle eyebrow={ui.sections.caseStudies.eyebrow} title={ui.sections.caseStudies.title} />
             <div className="case-list">
               {caseStudies.map((item) => (

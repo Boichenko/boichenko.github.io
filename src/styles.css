@@ -147,8 +147,10 @@ code {
   background: rgba(255, 255, 255, 0.6);
 }
 
-.case-item + .case-item {
-  margin-top: 22px;
+.case-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 40px;
 }
 
 .case-item p {
@@ -241,6 +243,10 @@ code {
   max-width: 56ch;
 }
 
+.project-types-card {
+  margin-top: 30px;
+}
+
 .info-card {
   padding: 30px;
 }
@@ -314,6 +320,11 @@ code {
   .section-grid,
   .timeline-item {
     grid-template-columns: 1fr;
+  }
+
+  .case-list {
+    grid-template-columns: 1fr;
+    gap: 22px;
   }
 
   .hero-copy {
