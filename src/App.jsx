@@ -78,6 +78,9 @@ export default function App() {
             <p>
               <a href={basics.linkedin.url}>{basics.linkedin.label}</a>
             </p>
+            <p>
+              <a href={basics.phone.url}>{basics.phone.label}</a>
+            </p>
           </div>
           {downloadAction ? (
             <a
