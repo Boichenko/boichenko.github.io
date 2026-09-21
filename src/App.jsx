@@ -118,6 +118,20 @@ export default function App() {
         </section>
 
         <section className="section">
+          <div className="info-card case-studies-card">
+            <SectionTitle eyebrow={ui.sections.caseStudies.eyebrow} title={ui.sections.caseStudies.title} />
+            <div className="case-list">
+              {caseStudies.map((item) => (
+                <article className="case-item" key={item.title}>
+                  <h3>{item.title}</h3>
+                  <p>{item.text}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="section">
           <SectionTitle eyebrow={ui.sections.skills.eyebrow} title={ui.sections.skills.title} />
           <div className="card-stack">
             {skills.map((skillGroup) => (
@@ -146,20 +160,6 @@ export default function App() {
                 </ul>
               </article>
             ))}
-          </div>
-        </section>
-
-        <section className="section">
-          <div className="info-card case-studies-card">
-            <SectionTitle eyebrow={ui.sections.caseStudies.eyebrow} title={ui.sections.caseStudies.title} />
-            <div className="case-list">
-              {caseStudies.map((item) => (
-                <article className="case-item" key={item.title}>
-                  <h3>{item.title}</h3>
-                  <p>{item.text}</p>
-                </article>
-              ))}
-            </div>
           </div>
         </section>
 

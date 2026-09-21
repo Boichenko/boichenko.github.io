@@ -142,6 +142,15 @@ ${renderedAboutFacts}
         </div>
       </section>
 
+      <section class="section" aria-label="Selected work">
+        <div class="info-card case-studies-card">
+${renderSectionHeading(ui?.sections?.caseStudies, 'ui.sections.caseStudies')}
+          <div class="case-list">
+${renderedCaseStudies}
+          </div>
+        </div>
+      </section>
+
       <section class="section" aria-labelledby="skills-heading">
 ${renderSectionHeading(ui?.sections?.skills, 'ui.sections.skills', '', 'skills-heading')}
         <div class="card-stack">
@@ -153,15 +162,6 @@ ${renderedSkills}
 ${renderSectionHeading(ui?.sections?.experience, 'ui.sections.experience', '', 'experience-heading')}
         <div class="timeline">
 ${renderedExperience}
-        </div>
-      </section>
-
-      <section class="section" aria-label="Selected work">
-        <div class="info-card case-studies-card">
-${renderSectionHeading(ui?.sections?.caseStudies, 'ui.sections.caseStudies')}
-          <div class="case-list">
-${renderedCaseStudies}
-          </div>
         </div>
       </section>
 
