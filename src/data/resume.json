@@ -227,20 +227,20 @@
   ],
   "caseStudies": [
     {
-      "title": "Multi-project delivery governance",
-      "text": "Coordinated approximately six concurrent Web3 and AI client projects across different delivery stages, managing cross-functional teams of up to 25 and standardizing planning, reporting, risk, and dependency tracking."
+      "title": "Permissioned cross-border settlement",
+      "text": "Leading PM/BA delivery for a cross-border fiat settlement product built on a private Hyperledger network and using a gold-backed token. Coordinating requirements, transaction flows, compliance and legal decisions, dependencies, and release readiness across three technical workstreams."
     },
     {
-      "title": "PMO, team-of-teams leadership, and presales",
-      "text": "Managed 4–5 concurrent T&M and fixed-price projects, structured delivery across several sub-teams, managed Project Managers, and led delivery and solution planning for 90+ RFPs."
+      "title": "Real-estate and RWA tokenization",
+      "text": "Managed MVP definition, functional requirements, architecture discussions, planning, and delivery across two tokenization initiatives. Scope included asset onboarding, investor KYC, fractional ownership, token issuance and transfers, income distribution, valuation updates, and auditability."
     },
     {
-      "title": "Engineering-led product modernization",
-      "text": "Applied 7 years of software development experience to architecture and legacy modernization, including the ground-up re-architecture of a multi-brand HR-tech product suite."
+      "title": "Crypto gifting product",
+      "text": "Managed discovery, backlog, roadmap, and delivery for a crypto gifting experience designed for recipients unfamiliar with wallets, including gift activation, onboarding and KYC, payment and settlement flows, notifications, and transaction history."
     },
     {
-      "title": "Business analysis and documentation",
-      "text": "Elicited and managed business and technical requirements, documented functional scope, workflows, user stories, acceptance criteria, decisions, risks, and release readiness across Web3, AI, SaaS, and bespoke software projects."
+      "title": "Crypto-powered electricity purchasing",
+      "text": "PM/BA delivery for a Web3 product enabling electricity purchases with cryptocurrency. Structured product scope and requirements, tracked dependencies, and coordinated business and technical stakeholders while keeping payment and infrastructure details confidential."
     }
   ],
   "education": [
@@ -279,7 +279,7 @@
       "skills": { "eyebrow": "Core capabilities", "title": "Skills and methods" },
       "experience": { "eyebrow": "Career", "title": "Work experience" },
       "projects": { "eyebrow": "Delivery history", "title": "Selected project types" },
-      "caseStudies": { "eyebrow": "Selected work", "title": "NDA-safe delivery examples" },
+      "caseStudies": { "eyebrow": "Selected work", "title": "NDA-safe Web3 delivery examples" },
       "education": { "eyebrow": "Education", "title": "Courses and academic background" },
       "languages": { "eyebrow": "Languages", "title": "Communication" },
       "interests": { "eyebrow": "Additional", "title": "Interests" }
