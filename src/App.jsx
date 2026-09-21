@@ -81,6 +81,9 @@ export default function App() {
             <p>
               <a href={basics.phone.url}>{basics.phone.label}</a>
             </p>
+            <p>
+              <a href={basics.telegram.url}>{basics.telegram.label}</a>
+            </p>
           </div>
           {downloadAction ? (
             <a

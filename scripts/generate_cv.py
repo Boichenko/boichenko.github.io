@@ -183,13 +183,16 @@ def generate(output_path: Path):
         .removeprefix("https://www.")
         .removesuffix("/")
     )
+    telegram_url = html.escape(basics["telegram"]["url"], quote=True)
+    telegram_handle = pdf_text(basics["telegram"]["handle"])
 
     story = [
         paragraph(basics["name"], styles["title"]),
         paragraph(basics["headline"], styles["subtitle"]),
         Paragraph(
             f'{pdf_text(basics["location"])} | Email: <link href="mailto:{email}" color="#595959">{email}</link>'
-            f' | LinkedIn: <link href="{linkedin_url}" color="#595959">{linkedin_label}</link>',
+            f'<br/>LinkedIn: <link href="{linkedin_url}" color="#595959">{linkedin_label}</link>'
+            f' | Telegram: <link href="{telegram_url}" color="#595959">{telegram_handle}</link>',
             styles["contact"],
         ),
         section_title("Professional summary", styles),
