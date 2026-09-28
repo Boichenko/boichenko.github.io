@@ -68,18 +68,30 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+
+      try {
+        window.analyticsConsent = localStorage.getItem('analytics_consent');
+        if (!['granted', 'denied'].includes(window.analyticsConsent)) {
+          window.analyticsConsent = null;
+        }
+      } catch {
+        window.analyticsConsent = null;
+      }
+
       gtag('consent', 'default', {
         'ad_storage': 'denied',
         'ad_user_data': 'denied',
         'ad_personalization': 'denied',
-        'analytics_storage': 'denied'
+        'analytics_storage': window.analyticsConsent === 'granted' ? 'granted' : 'denied'
       });
     </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-20JT6WDLE7"></script>
     <script>
       gtag('js', new Date());
-      gtag('config', 'G-20JT6WDLE7');
+      gtag('config', 'G-20JT6WDLE7', {
+        'send_page_view': window.analyticsConsent === 'granted'
+      });
     </script>
     <script type="module" src="/src/main.jsx"></script>
   </head>
