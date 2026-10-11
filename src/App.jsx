@@ -18,8 +18,6 @@ function AnalyticsConsent() {
   const [isOpen, setIsOpen] = useState(consent === null)
 
   const updateConsent = (nextConsent) => {
-    const wasGranted = consent === 'granted'
-
     try {
       localStorage.setItem(ANALYTICS_CONSENT_KEY, nextConsent)
     } catch {
@@ -34,14 +32,6 @@ function AnalyticsConsent() {
       ad_personalization: 'denied',
       analytics_storage: nextConsent,
     })
-
-    if (nextConsent === 'granted' && !wasGranted) {
-      window.gtag?.('event', 'page_view', {
-        page_location: window.location.href,
-        page_path: `${window.location.pathname}${window.location.search}`,
-        page_title: document.title,
-      })
-    }
 
     setConsent(nextConsent)
     setIsOpen(false)
@@ -127,6 +117,14 @@ export default function App() {
   const primaryActions = ui.actions.filter((action) => !action.download)
   const downloadAction = ui.actions.find((action) => action.download)
 
+  const trackLinkClick = (eventName, linkUrl, linkText) => {
+    window.gtag?.('event', eventName, {
+      link_url: linkUrl,
+      link_text: linkText,
+      transport_type: 'beacon',
+    })
+  }
+
   return (
     <>
       <div className="page-shell">
@@ -143,6 +141,11 @@ export default function App() {
                   className={`button ${action.style}`}
                   download={action.download || undefined}
                   key={action.label}
+                  onClick={() => trackLinkClick(
+                    action.target === 'email' ? 'contact_click' : 'navigation_click',
+                    action.target === 'email' ? `mailto:${basics.email}` : action.href,
+                    action.label,
+                  )}
                 >
                   {action.label}
                 </a>
@@ -162,15 +165,35 @@ export default function App() {
             <div className="contact-card">
               <p className="card-label">{ui.contactLabel}</p>
               <p>{basics.location}</p>
-              <a href={`mailto:${basics.email}`}>{basics.email}</a>
+              <a
+                href={`mailto:${basics.email}`}
+                onClick={() => trackLinkClick('contact_click', `mailto:${basics.email}`, 'Email')}
+              >
+                {basics.email}
+              </a>
               <p>
-                <a href={basics.linkedin.url}>{basics.linkedin.label}</a>
+                <a
+                  href={basics.linkedin.url}
+                  onClick={() => trackLinkClick('outbound_click', basics.linkedin.url, basics.linkedin.label)}
+                >
+                  {basics.linkedin.label}
+                </a>
               </p>
               <p>
-                <a href={basics.phone.url}>{basics.phone.label}</a>
+                <a
+                  href={basics.phone.url}
+                  onClick={() => trackLinkClick('contact_click', basics.phone.url, 'Phone')}
+                >
+                  {basics.phone.label}
+                </a>
               </p>
               <p>
-                <a href={basics.telegram.url}>{basics.telegram.label}</a>
+                <a
+                  href={basics.telegram.url}
+                  onClick={() => trackLinkClick('contact_click', basics.telegram.url, 'Telegram')}
+                >
+                  {basics.telegram.label}
+                </a>
               </p>
             </div>
             {downloadAction ? (
@@ -178,6 +201,7 @@ export default function App() {
                 href={downloadAction.href}
                 className={`button ${downloadAction.style} hero-card-action`}
                 download={downloadAction.download || undefined}
+                onClick={() => trackLinkClick('cv_download', downloadAction.href, downloadAction.label)}
               >
                 {downloadAction.label}
               </a>
